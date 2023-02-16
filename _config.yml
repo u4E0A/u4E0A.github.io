@@ -161,10 +161,10 @@ beaudar:
     repo: 
 # giscus 配置参考：https://giscus.app/zh-CN
 giscus:
-    repo: 
-    repo-id: 
-    category: 
-    category-id: 
+    repo: u4E0A/u4E0A.github.io
+    repo-id: R_kgDOI-R04w
+    category: Announcements
+    category-id: DIC_kwDOI-R0484CUPrX
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
