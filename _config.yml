@@ -2,12 +2,12 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://blog.liushang.space/
+url: http://u4E0A.github.io
 date_format: "ordinal"
 title: u4E0A
 subtitle: "公众号：******"
 description: "**的个人博客，公众号：******"
-keywords: **,*****
+keywords: u4E0A,上
 timezone: Asia/Shanghai
 encoding: "utf-8"
 # 页面左下角显示的年份
