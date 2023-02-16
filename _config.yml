@@ -2,11 +2,11 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://blog.liushang.space/
+url: https://blog.liushang.space
 date_format: "ordinal"
 title: u4E0A
-subtitle: "公众号：******"
-description: "**的个人博客，公众号：******"
+subtitle: "欢迎来到u4E0A的博客"
+description: "代码与随想"
 keywords: u4E0A,上
 timezone: Asia/Shanghai
 encoding: "utf-8"
@@ -37,7 +37,7 @@ components:
     word_count:
         enabled: true
     # 页面右上角，以及「关于」页面的二维码
-    # 修改图片请替换 assets/images/qrcode.jpg
+    # 修改图片请替换 assets/images/qrcode.png
     qrcode:
         enabled: true
         image_alt: 闷骚的程序员
