@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://blog.liushang.space/
 date_format: "ordinal"
 title: 码志
 subtitle: "公众号：闷骚的程序员"
