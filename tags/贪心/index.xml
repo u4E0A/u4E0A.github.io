@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>贪心 - Tag - u4E0A的博客</title>
+        <link>https://u4E0A.github.io/tags/%E8%B4%AA%E5%BF%83/</link>
+        <description>贪心 - Tag - u4E0A的博客</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 23 Mar 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/%E8%B4%AA%E5%BF%83/" rel="self" type="application/rss+xml" /><item>
+    <title>算法 ALGO 2 最大最小公倍数</title>
+    <link>https://u4E0A.github.io/algo-2-%E6%9C%80%E5%A4%A7%E6%9C%80%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0/</link>
+    <pubDate>Thu, 23 Mar 2023 00:00:00 &#43;0000</pubDate>
+    <author>u4E0A</author>
+    <guid>https://u4E0A.github.io/algo-2-%E6%9C%80%E5%A4%A7%E6%9C%80%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0/</guid>
+    <description><![CDATA[试题 算法训练 最大最小公倍数 题目 问题描述 已知一个正整数N，问从1~N中任选出三个数，他们的最小公倍数最大可以为多少。 输入格式 输入一个正整数N。]]></description>
+</item>
+</channel>
+</rss>

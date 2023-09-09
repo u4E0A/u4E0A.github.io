@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>递推 - Tag - u4E0A的博客</title>
+        <link>https://u4E0A.github.io/tags/%E9%80%92%E6%8E%A8/</link>
+        <description>递推 - Tag - u4E0A的博客</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 09 Mar 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/%E9%80%92%E6%8E%A8/" rel="self" type="application/rss+xml" /><item>
+    <title>算法 ALGO 981 过河马</title>
+    <link>https://u4E0A.github.io/algo-981-%E8%BF%87%E6%B2%B3%E9%A9%AC/</link>
+    <pubDate>Thu, 09 Mar 2023 00:00:00 &#43;0000</pubDate>
+    <author>u4E0A</author>
+    <guid>https://u4E0A.github.io/algo-981-%E8%BF%87%E6%B2%B3%E9%A9%AC/</guid>
+    <description><![CDATA[试题 算法训练 过河马 题目 问题描述 在那个过河卒逃过了马的控制以超级超级多的走法走到了终点之后，这匹马表示它不开心了…… 于是，终于有一天，它也过河]]></description>
+</item>
+</channel>
+</rss>

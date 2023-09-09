@@ -1,0 +1,87 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>算法 - Category - u4E0A的博客</title>
+        <link>https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/</link>
+        <description>算法 - Category - u4E0A的博客</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 06 Apr 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+    <title>算法 ALGO 835 盾神与格子游戏</title>
+    <link>https://u4E0A.github.io/algo-835-%E7%9B%BE%E7%A5%9E%E4%B8%8E%E6%A0%BC%E5%AD%90%E6%B8%B8%E6%88%8F/</link>
+    <pubDate>Thu, 06 Apr 2023 00:00:00 &#43;0000</pubDate>
+    <author>u4E0A</author>
+    <guid>https://u4E0A.github.io/algo-835-%E7%9B%BE%E7%A5%9E%E4%B8%8E%E6%A0%BC%E5%AD%90%E6%B8%B8%E6%88%8F/</guid>
+    <description><![CDATA[试题 算法训练 盾神与格子游戏 题目 问题描述 在盾神很小很小还不会怎样编程的时候，他迷上了一款风靡一时的双人游戏！游戏双方在地上画n个格子，然后在最]]></description>
+</item>
+<item>
+    <title>算法 ALGO 2 最大最小公倍数</title>
+    <link>https://u4E0A.github.io/algo-2-%E6%9C%80%E5%A4%A7%E6%9C%80%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0/</link>
+    <pubDate>Thu, 23 Mar 2023 00:00:00 &#43;0000</pubDate>
+    <author>u4E0A</author>
+    <guid>https://u4E0A.github.io/algo-2-%E6%9C%80%E5%A4%A7%E6%9C%80%E5%B0%8F%E5%85%AC%E5%80%8D%E6%95%B0/</guid>
+    <description><![CDATA[试题 算法训练 最大最小公倍数 题目 问题描述 已知一个正整数N，问从1~N中任选出三个数，他们的最小公倍数最大可以为多少。 输入格式 输入一个正整数N。]]></description>
+</item>
+<item>
+    <title>算法 ALGO 3 K好数</title>
+    <link>https://u4E0A.github.io/algo-3-k%E5%A5%BD%E6%95%B0/</link>
+    <pubDate>Thu, 23 Mar 2023 00:00:00 &#43;0000</pubDate>
+    <author>u4E0A</author>
+    <guid>https://u4E0A.github.io/algo-3-k%E5%A5%BD%E6%95%B0/</guid>
+    <description><![CDATA[试题 算法训练 K好数 题目 问题描述 如果一个自然数N的K进制表示中任意的相邻的两位都不是相邻的数字，那么我们就说这个数是K好数。求L位K进制数中K]]></description>
+</item>
+<item>
+    <title>算法 ALGO 857 完全背包问题</title>
+    <link>https://u4E0A.github.io/algo-857-%E5%AE%8C%E5%85%A8%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</link>
+    <pubDate>Tue, 21 Mar 2023 00:00:00 &#43;0000</pubDate>
+    <author>u4E0A</author>
+    <guid>https://u4E0A.github.io/algo-857-%E5%AE%8C%E5%85%A8%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</guid>
+    <description><![CDATA[试题 算法训练 完全背包问题 题目 问题描述 有一個背包，容量為M。有N種物品，每種物品有其體積Wi與價值Vi。將這些物品的一部分放入背包，每種物品可]]></description>
+</item>
+<item>
+    <title>算法 ALGO 839 B君的希望</title>
+    <link>https://u4E0A.github.io/algo-839-b%E5%90%9B%E7%9A%84%E5%B8%8C%E6%9C%9B/</link>
+    <pubDate>Thu, 16 Mar 2023 00:00:00 &#43;0000</pubDate>
+    <author>u4E0A</author>
+    <guid>https://u4E0A.github.io/algo-839-b%E5%90%9B%E7%9A%84%E5%B8%8C%E6%9C%9B/</guid>
+    <description><![CDATA[试题 算法训练 B君的希望 题目 问题描述 你有个同学叫B君，他早听闻祖国河山秀丽，列了一张所有可能爬的山的高度表，因“人往高处走”的说法，所以他希望]]></description>
+</item>
+<item>
+    <title>算法 ALGO 964 筛法</title>
+    <link>https://u4E0A.github.io/algo-964-%E7%AD%9B%E6%B3%95/</link>
+    <pubDate>Sat, 11 Mar 2023 00:00:00 &#43;0000</pubDate>
+    <author>u4E0A</author>
+    <guid>https://u4E0A.github.io/algo-964-%E7%AD%9B%E6%B3%95/</guid>
+    <description><![CDATA[试题 算法训练 筛法 题目 问题描述 炫炫学了筛法之后，很想用筛法求欧拉函数。他决定求1到N的所有数的欧拉函数值。 输入格式 输入的第一行包含1个整数n,]]></description>
+</item>
+<item>
+    <title>算法 ALGO 981 过河马</title>
+    <link>https://u4E0A.github.io/algo-981-%E8%BF%87%E6%B2%B3%E9%A9%AC/</link>
+    <pubDate>Thu, 09 Mar 2023 00:00:00 &#43;0000</pubDate>
+    <author>u4E0A</author>
+    <guid>https://u4E0A.github.io/algo-981-%E8%BF%87%E6%B2%B3%E9%A9%AC/</guid>
+    <description><![CDATA[试题 算法训练 过河马 题目 问题描述 在那个过河卒逃过了马的控制以超级超级多的走法走到了终点之后，这匹马表示它不开心了…… 于是，终于有一天，它也过河]]></description>
+</item>
+<item>
+    <title>算法 ALGO 999 数的潜能</title>
+    <link>https://u4E0A.github.io/algo-999-%E6%95%B0%E7%9A%84%E6%BD%9C%E8%83%BD/</link>
+    <pubDate>Thu, 09 Mar 2023 00:00:00 &#43;0000</pubDate>
+    <author>u4E0A</author>
+    <guid>https://u4E0A.github.io/algo-999-%E6%95%B0%E7%9A%84%E6%BD%9C%E8%83%BD/</guid>
+    <description><![CDATA[试题 算法训练 数的潜能 题目 问题描述 将一个数N分为多个正整数之和，即N=a1+a2+a3+…+ak，定义M=a1a2a3*…*ak为N的潜能。 给]]></description>
+</item>
+<item>
+    <title>算法 ALGO 1001 跳马</title>
+    <link>https://u4E0A.github.io/algo-1001-%E8%B7%B3%E9%A9%AC/</link>
+    <pubDate>Wed, 08 Mar 2023 00:00:00 &#43;0000</pubDate>
+    <author>u4E0A</author>
+    <guid>https://u4E0A.github.io/algo-1001-%E8%B7%B3%E9%A9%AC/</guid>
+    <description><![CDATA[试题 算法训练 跳马 题目 问题描述 一个8×8的棋盘上有一个马初始位置为(a,b)，他想跳到(c,d)，问是否可以？如果可以，最少要跳几步？ 输入格式]]></description>
+</item>
+<item>
+    <title>算法 ALGO 1006 拿金币</title>
+    <link>https://u4E0A.github.io/algo-1006-%E6%8B%BF%E9%87%91%E5%B8%81/</link>
+    <pubDate>Thu, 02 Mar 2023 00:00:00 &#43;0000</pubDate>
+    <author>u4E0A</author>
+    <guid>https://u4E0A.github.io/algo-1006-%E6%8B%BF%E9%87%91%E5%B8%81/</guid>
+    <description><![CDATA[试题 算法训练 拿金币 题目 问题描述 有一个N x N的方格,每一个格子都有一些金币,只要站在格子里就能拿到里面的金币。你站在最左上角的格子里,每次可以]]></description>
+</item>
+</channel>
+</rss>
