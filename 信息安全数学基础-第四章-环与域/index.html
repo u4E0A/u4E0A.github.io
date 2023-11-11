@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>信息安全数学基础 第四章 环与域 - u4E0A的博客</title><meta name="Description" content="这是u4E0A的博客"><meta property="og:title" content="信息安全数学基础 第四章 环与域" />
+<meta property="og:description" content="第四章 环与域 环 对 $&#43;$ 交换群 对 $\cdot$ 满足结合律 $(a\cdot b)\cdot c=a\cdot (b\cdot c)$ $\cdot$ 对 $&#43;$ 满足左右分配律 $a\cdot (b&#43;c)=a\cdot b&#43;a\cdot c,(b&#43;c)\cdot a=b\cdot a&#43;c\cdot a$ 环 $R$ 性质，$a,b \in R ,m,n \in Z^&#43;,ma=a&#43;a&#43;\cdots&#43;a,a^m=a \cdot a\cdot \ \cdots \ \cdot a$ $a\cdot 0=0\cdot a=0$ $a \cdot (-b)=(-a)\cdot b=-(ab)$ $n(a&#43;b)=na&#43;nb$" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E7%8E%AF%E4%B8%8E%E5%9F%9F/" /><meta property="og:image" content="https://u4E0A.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-11-03T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-11-03T00:00:00+00:00" /><meta property="og:site_name" content="u4E0A的博客" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://u4E0A.github.io/logo.png"/>
+
+<meta name="twitter:title" content="信息安全数学基础 第四章 环与域"/>
+<meta name="twitter:description" content="第四章 环与域 环 对 $&#43;$ 交换群 对 $\cdot$ 满足结合律 $(a\cdot b)\cdot c=a\cdot (b\cdot c)$ $\cdot$ 对 $&#43;$ 满足左右分配律 $a\cdot (b&#43;c)=a\cdot b&#43;a\cdot c,(b&#43;c)\cdot a=b\cdot a&#43;c\cdot a$ 环 $R$ 性质，$a,b \in R ,m,n \in Z^&#43;,ma=a&#43;a&#43;\cdots&#43;a,a^m=a \cdot a\cdot \ \cdots \ \cdot a$ $a\cdot 0=0\cdot a=0$ $a \cdot (-b)=(-a)\cdot b=-(ab)$ $n(a&#43;b)=na&#43;nb$"/>
+<meta name="application-name" content="u4E0A的博客">
+<meta name="apple-mobile-web-app-title" content="u4E0A的博客"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E7%8E%AF%E4%B8%8E%E5%9F%9F/" /><link rel="prev" href="https://u4E0A.github.io/algo-835-%E7%9B%BE%E7%A5%9E%E4%B8%8E%E6%A0%BC%E5%AD%90%E6%B8%B8%E6%88%8F/" /><link rel="next" href="https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E6%9C%89%E9%99%90%E5%9F%9F/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "信息安全数学基础 第四章 环与域",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/u4E0A.github.io\/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E7%8E%AF%E4%B8%8E%E5%9F%9F\/"
+        },"genre": "posts","keywords": "抽象代数","wordcount":  1274 ,
+        "url": "https:\/\/u4E0A.github.io\/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E7%8E%AF%E4%B8%8E%E5%9F%9F\/","datePublished": "2023-11-03T00:00:00+00:00","dateModified": "2023-11-03T00:00:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "u4E0A"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="u4E0A的博客"><span class="header-title-pre"><i class='far fa-grin-stars'></i></span>u4E0A的博客</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="u4E0A的博客"><span class="header-title-pre"><i class='far fa-grin-stars'></i></span>u4E0A的博客</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">信息安全数学基础 第四章 环与域</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>u4E0A</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>信息安全</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-11-03">2023-11-03</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1274 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;3 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="true">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+            </div><div class="content" id="content"><h1 id="第四章-环与域">第四章 环与域</h1>
+<ol>
+<li>
+<p>环</p>
+<ul>
+<li>对 $+$ 交换群</li>
+<li>对 $\cdot$ 满足结合律 $(a\cdot b)\cdot c=a\cdot (b\cdot c)$</li>
+<li>$\cdot$ 对 $+$ 满足左右分配律 $a\cdot (b+c)=a\cdot b+a\cdot c,(b+c)\cdot a=b\cdot a+c\cdot a$</li>
+</ul>
+</li>
+<li>
+<p>环 $R$ 性质，$a,b \in R ,m,n \in Z^+,ma=a+a+\cdots+a,a^m=a \cdot a\cdot \ \cdots \ \cdot a$</p>
+<ul>
+<li>$a\cdot 0=0\cdot a=0$</li>
+<li>$a \cdot (-b)=(-a)\cdot b=-(ab)$</li>
+<li>$n(a+b)=na+nb$</li>
+<li>$m(ab)=(ma)b=a(mb)$</li>
+<li>$a^ma^n=a^{(m+n)}$</li>
+<li>$(a^m)^n=a^{mn}$</li>
+<li>环中一定有零元素（加法群单位元）</li>
+</ul>
+</li>
+<li>
+<p>$\forall a \in R,1_R \cdot a=a \cdot 1_R \implies$ 有单位元环</p>
+<ul>
+<li>$1_R$ 单位元</li>
+<li>$0_R$ 零元素</li>
+<li>$-a$ 负元</li>
+<li>$\exist b \in R,ab=ba=1,a$ 可逆元</li>
+<li>$0_R$ 无逆元</li>
+<li>环中并不一定所有的非零元都有逆元，如 $Z$</li>
+<li>乘法可逆元一定不是左、右零因子</li>
+</ul>
+</li>
+<li>
+<p>$\forall a,b \in R, a\cdot b=b\cdot a \implies$ 交换环</p>
+</li>
+<li>
+<p>全体整数关于数的普通加法和乘法构成一个环，称为<strong>整数</strong>环 $Z$</p>
+</li>
+<li>
+<p>全体有理数（实数、复数）关于数的普通加法和乘法构成一个环，称为有理数环 $Q$</p>
+</li>
+<li>
+<p>$\forall [a],[b] \in Z/mZ,[a]+[b]=[a+b],[a][b]=[ab],Z/mZ$ 为模 $m$ 的剩余类环</p>
+</li>
+<li>
+<p>$\exist a,b \in R,a\neq 0,b\neq 0,ab=0 \implies$ 有零因子环，反之无零因子环</p>
+<ul>
+<li>$a$ 左零因子</li>
+<li>$b$ 右零因子</li>
+<li>$Z,Q,R,C$ 无零因子环</li>
+<li>合数 $n,Z_n$ 有零因子环</li>
+</ul>
+</li>
+<li>
+<p>无零因子环 $R,a,b,c \in R ,a\neq 0$</p>
+<ul>
+<li>$ab=ac \implies b=c$</li>
+<li>$ba=ca \implies b=c$</li>
+<li>若一个环里消去律成立 $\implies$ 无零因子环</li>
+<li>$R$ 中非零元的加法阶相等，这个加法阶或者是 $\infin$ ，或者是个素数 $p$。</li>
+</ul>
+</li>
+<li>
+<p>环 $R$ 的加法阶称为特征 $CharR$。当 $R$ 中非零元的加法阶为无穷大时 $CharR=0$ ，当 $R$ 中非零元的加 法阶为某个素数 $p$ 时 $CharR=p$</p>
+</li>
+<li>
+<p>有单位元、无零因子、交换环 $\implies$ 整环</p>
+</li>
+<li>
+<p>有单位元、至少包含一个不等于零的元、每一个不等于零的元有一个逆元 $\implies$ 除环</p>
+<ul>
+<li>无零因子环</li>
+<li>非零环 $R,R^*={a\in R | a \neq 0},R$ 是除环 $\iff(R,\cdot)$ 是群</li>
+<li>除环 $R,\forall a ,b \in R,a\neq 0,ax=b,ya=b$ 都有唯一解</li>
+</ul>
+</li>
+<li>
+<p>至少含有两个元素、无零因子、有限环 $\implies $ 除环</p>
+</li>
+<li>
+<p>有单位元、至少包含一个不等于零的元、每一个不等于零的元有一个逆元、交换环 $\implies$ 域</p>
+<ul>
+<li>有限整环是域</li>
+<li>$p\in P \iff Z_p=Z/pZ$ 是域</li>
+</ul>
+</li>
+<li>
+<table>
+<thead>
+<tr>
+<th>环</th>
+<th>加法$+$</th>
+<th>乘法$\cdot$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>环</td>
+<td>交换群</td>
+<td>结合律</td>
+</tr>
+<tr>
+<td>整环</td>
+<td>交换群</td>
+<td>结合律、单位元、无零因子、交换律</td>
+</tr>
+<tr>
+<td>除环</td>
+<td>交换群</td>
+<td>群：结合律、单位元、非零有逆（必无零因子）</td>
+</tr>
+<tr>
+<td>域</td>
+<td>交换群</td>
+<td>交换群：结合律、单位元、非零有逆（必无零因子）、交换律</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>环 $R$ ，非空子集 $S$</p>
+<ul>
+<li>$\forall a,b \in S,a-b \in S,ab\in S \iff S$ 是 $R$ 的子环</li>
+<li>$\forall b \neq 0 ,a \in S,a-b \in S,ab^{-1} \in S \iff S$ 是 $R$ 子除环</li>
+</ul>
+</li>
+<li>
+<p>环 $R$ ，非空子集 $I,\forall r\in R, \forall a,b \in I,a-b\in I,ar \in I,ra \in I \iff I \lhd R,I$ 是 $R$ 的理想</p>
+<ul>
+<li>理想一定是子环，反之未必</li>
+<li>${0}$ 和 $R$ 都是理想，分别称之为零理想和单位理想，统称平凡理想</li>
+<li>除环仅有平凡理想</li>
+</ul>
+</li>
+<li>
+<p>环 $(R,+,\cdot),(R^\prime ,\oplus,\circ)$，映射 $f:R \to R^\prime,\forall a,b \in R$</p>
+<ul>
+<li>$f(a+b)=f(a)\oplus f(b)$</li>
+<li>$f(a \cdot b)=f(a)\circ f(b)$</li>
+<li>$0_R \implies 0_{R^\prime}=f(0_R)$</li>
+<li>$f(-a)=\ominus f(a)$</li>
+<li>$\exist 1_R \implies 1_{R^\prime}=f(1_R)$</li>
+<li>$S$ 是 $R$ 的子环 $\implies$ $f(S)$ 是 $R^\prime =f(R)$ 的子环</li>
+<li>$S^\prime$ 是 $R^\prime$ 的子环 $\implies$ $S=f^{-1}(S^\prime)={a \in R|f(a)\in S^\prime}$ 是 $R$ 的子环</li>
+<li>$R$ 有单位元，$c \in R$ 可逆 $\implies c^\prime=f(c)$ 可逆，${c^\prime}^{-1}=f(c^{-1})$</li>
+<li>$R$ 是交换环 $\implies R^\prime$ 是交换环</li>
+<li>同态 $f$ 的核 $ker(f)=f^{-1}(0_{R^\prime})$</li>
+<li>$ker(f)$ 是 $R$ 加法群的子群</li>
+<li>$ker(f)={0_R} \iff f$ 是单同态</li>
+<li>乘法在 $ker(f)$ 封闭 $\iff ker(f)$ 是子环，是 $R$ 的理想</li>
+</ul>
+</li>
+<li>
+<p>环 $R,R^\prime,R \cong R^\prime$</p>
+<ul>
+<li>$R$ 是整环 $\iff R^\prime$ 是整环</li>
+<li>$R$ 是除环 $\iff R^\prime$ 是除环</li>
+<li>$R$ 是域 $\iff R^\prime$ 是域</li>
+</ul>
+</li>
+<li>
+<p>非空子集 $T \subseteq R ,\lang T \rang= \underset{T \subseteq I,I\lhd R}{\cap}I$ 是 $R$ 中包含 $T$ 的最小理想</p>
+<ul>
+<li>特别地，若 $T={a}$ ，则简记主理想 $\lang T \rang = \lang a \rang$ 称为由 $a$ 生成的主理想</li>
+<li>$R$ 是交换环 $, \lang a \rang={sa+na| \forall s \in R,\forall n \in Z}$</li>
+<li>$R$ 有单位元 $, \lang a \rang={x_1ay_1+\cdots +x_may_m |\forall x_i,y_i \in R,\forall m \in N }$</li>
+<li>$R$ 是有单位元交换环 $, \lang a \rang={ra | \forall r \in R}=aR=Ra$</li>
+<li>$Z$ 的理想一定是主理想</li>
+<li>$\lang n \rang$ 是 $\lang m \rang$ 的子理想 $\iff m|n$</li>
+</ul>
+</li>
+<li>
+<p>环 $R,I\lhd R,R/I={x+I|x\in R},[A]=a+I$</p>
+<ul>
+<li>$R/I$ 中乘法为 $[X][Y]=[XY]=xy+I$</li>
+<li>$R/I$ 构成环，称为商环（剩余类环）</li>
+<li>存在满同态 $\pi:R \to R/I$</li>
+</ul>
+</li>
+<li>
+<p><strong>环同态基本定理</strong></p>
+<p>环 $R,R^\prime $，同态映射$\varphi:R \to R^\prime,N=ker(\varphi) \implies N\lhd R,R^\prime \cong G/N$</p>
+</li>
+<li>
+<p>$R$ 是有单位元交换环 $,a,b \in R,I \lhd R,\forall ab\in I,a\in I$ <strong>或</strong> $b \in I \implies I$ 是 $R$ 的素理想</p>
+</li>
+<li>
+<p>环 $R,M\lhd R,M \neq R,\forall I \lhd R,M \supseteq I \implies M$  是 $R$ 的极大理想</p>
+</li>
+<li>
+<p>有单位元交换环 $R$</p>
+<ul>
+<li>$M$  是 $R$ 的极大理想 $\iff R/M$ 是域</li>
+<li>$P$  是 $R$ 的素理想 $\iff R/P$ 是整环</li>
+</ul>
+</li>
+<li>
+<p>对于每一个整环 $R$ ，一定存在一个域 $Q$，使得 $R$ 是 $Q$ 的子环</p>
+</li>
+</ol>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2023-11-03</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E7%8E%AF%E4%B8%8E%E5%9F%9F/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E7%8E%AF%E4%B8%8E%E5%9F%9F/" data-title="信息安全数学基础 第四章 环与域" data-hashtags="抽象代数"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E7%8E%AF%E4%B8%8E%E5%9F%9F/" data-hashtag="抽象代数"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E7%8E%AF%E4%B8%8E%E5%9F%9F/" data-title="信息安全数学基础 第四章 环与域"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E7%8E%AF%E4%B8%8E%E5%9F%9F/" data-title="信息安全数学基础 第四章 环与域"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E7%8E%AF%E4%B8%8E%E5%9F%9F/" data-title="信息安全数学基础 第四章 环与域"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0/">抽象代数</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/algo-835-%E7%9B%BE%E7%A5%9E%E4%B8%8E%E6%A0%BC%E5%AD%90%E6%B8%B8%E6%88%8F/" class="prev" rel="prev" title="算法 ALGO 835 盾神与格子游戏"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>算法 ALGO 835 盾神与格子游戏</a>
+            <a href="/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E6%9C%89%E9%99%90%E5%9F%9F/" class="next" rel="next" title="信息安全数学基础 第六章 有限域">信息安全数学基础 第六章 有限域<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.120.4">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2021 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">u4E0A</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"algoliaAppID":"EI82UR0QY1","algoliaIndex":"hugo-blog","algoliaSearchKey":"3578420497e956d2e03a304be8841e9d","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":50,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

@@ -1,0 +1,23 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>初等数论 - Tag - u4E0A的博客</title>
+        <link>https://u4E0A.github.io/tags/%E5%88%9D%E7%AD%89%E6%95%B0%E8%AE%BA/</link>
+        <description>初等数论 - Tag - u4E0A的博客</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 03 Nov 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/%E5%88%9D%E7%AD%89%E6%95%B0%E8%AE%BA/" rel="self" type="application/rss+xml" /><item>
+    <title>信息安全数学基础 第一章 整除</title>
+    <link>https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%80%E7%AB%A0-%E6%95%B4%E9%99%A4/</link>
+    <pubDate>Fri, 03 Nov 2023 00:00:00 &#43;0000</pubDate>
+    <author>u4E0A</author>
+    <guid>https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%80%E7%AB%A0-%E6%95%B4%E9%99%A4/</guid>
+    <description><![CDATA[第一章 整除 $\forall a,b,c \in Z$ $a|b,b|c \implies a|c$ $a|b,a|c \iff \forall x,y \in Z ,a|bx+cy$ $m\neq 0 ,a|b \iff ma|mb$ $a|b,b|a \implies a=\pm b$ $\exist a,b \in Z,a\neq 0 \implies \exist_{=1} q,r\in Z ,0\le r &lt; |a|,b=aq+r$ $\forall a,b,c \in Z$ $gcd(a,b)=gcd(b,a)=gcd(-a,b)=gcd(a,-b)$ $a|b \implies gcd(a,b)=a$ $\forall a,b\in Z,gcd (a,b)|ax+by$ $\forall a,b\in Z ,\exist x,y \in Z ,gcd(a,b)=xa+yb$ $\exist a,b,c,q\in Z ,a=bq+c\implies gcd (a,b)=gcd(b,c)$ $gcd \left (]]></description>
+</item>
+<item>
+    <title>信息安全数学基础 第二章 同余</title>
+    <link>https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E5%90%8C%E4%BD%99/</link>
+    <pubDate>Fri, 03 Nov 2023 00:00:00 &#43;0000</pubDate>
+    <author>u4E0A</author>
+    <guid>https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E5%90%8C%E4%BD%99/</guid>
+    <description><![CDATA[第二章 同余 $a\equiv b(mod \ m) \iff \exist k \in Z ,a=km+b$ $a=k_1m+r_1,b=k_2m+r_2,0\leq r_1 &lt;m,0\leq r_2 &lt;m,a\equiv b(mod \ m ) \iff r_1=r_2$ $\exist a,b,c,m \in Z^+$ 自反性：$a\equiv a (mod \ m)$ 对称性：$a\equiv b(mod \ m)\implies b\equiv a (mod \ m)$ 传递性：]]></description>
+</item>
+</channel>
+</rss>
