@@ -44,13 +44,13 @@
    - 性质
      $$
      \left\{ \begin{align}
-     &x_1+x_2+x_3= \lambda
+     &x_1+x_2+x_3= \lambda^2
      \\
      &y_3=-(\lambda(x_3-x_1)+y_1)=-(\lambda(x_3-x_2)+y_2)
      \end{align} \right.
      $$
 
-   - $R=(\lambda-x_1-x_2, \lambda(x_1-x_3)-y_1)$
+   - $R=(\lambda^2-x_1-x_2, \lambda(x_1-x_3)-y_1)$
 
 6. 标量乘法
 
