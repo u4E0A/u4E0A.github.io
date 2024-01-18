@@ -11,5 +11,13 @@
     <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2171-%E6%8B%BF%E5%87%BA%E6%9C%80%E5%B0%91%E6%95%B0%E7%9B%AE%E7%9A%84%E9%AD%94%E6%B3%95%E8%B1%86/</guid>
     <description><![CDATA[拿出最少数目的魔法豆 题目 给定一个 正整数 数组 beans ，其中每个整数表示一个袋子里装的魔法豆的数目。 请你从每个袋子中 拿出 一些豆子（也可以 不拿出），使得]]></description>
 </item>
+<item>
+    <title>蓝桥杯 999 数的潜能</title>
+    <link>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-999-%E6%95%B0%E7%9A%84%E6%BD%9C%E8%83%BD/</link>
+    <pubDate>Thu, 09 Mar 2023 00:00:00 &#43;0000</pubDate>
+    <author>u4E0A</author>
+    <guid>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-999-%E6%95%B0%E7%9A%84%E6%BD%9C%E8%83%BD/</guid>
+    <description><![CDATA[数的潜能 题目 问题描述 将一个数N分为多个正整数之和，即N=a1+a2+a3+…+ak，定义M=a1a2a3*…*ak为N的潜能。 给定N，求它的]]></description>
+</item>
 </channel>
 </rss>
