@@ -4,12 +4,12 @@
         <link>https://u4E0A.github.io/tags/%E7%AD%9B%E6%B3%95/</link>
         <description>筛法 - Tag - u4E0A的博客</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 11 Mar 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/%E7%AD%9B%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
-    <title>算法 ALGO 964 筛法</title>
-    <link>https://u4E0A.github.io/algo-964-%E7%AD%9B%E6%B3%95/</link>
+    <title>蓝桥杯 964 筛法</title>
+    <link>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-964-%E7%AD%9B%E6%B3%95/</link>
     <pubDate>Sat, 11 Mar 2023 00:00:00 &#43;0000</pubDate>
     <author>u4E0A</author>
-    <guid>https://u4E0A.github.io/algo-964-%E7%AD%9B%E6%B3%95/</guid>
-    <description><![CDATA[试题 算法训练 筛法 题目 问题描述 炫炫学了筛法之后，很想用筛法求欧拉函数。他决定求1到N的所有数的欧拉函数值。 输入格式 输入的第一行包含1个整数n,]]></description>
+    <guid>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-964-%E7%AD%9B%E6%B3%95/</guid>
+    <description><![CDATA[筛法 题目 问题描述 炫炫学了筛法之后，很想用筛法求欧拉函数。他决定求1到N的所有数的欧拉函数值。 输入格式 输入的第一行包含1个整数n,。 输出格式 输]]></description>
 </item>
 </channel>
 </rss>

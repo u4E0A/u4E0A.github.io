@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>数学 - Tag - u4E0A的博客</title>
+        <link>https://u4E0A.github.io/tags/%E6%95%B0%E5%AD%A6/</link>
+        <description>数学 - Tag - u4E0A的博客</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 18 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/%E6%95%B0%E5%AD%A6/" rel="self" type="application/rss+xml" /><item>
+    <title>力扣 2171 拿出最少数目的魔法豆</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2171-%E6%8B%BF%E5%87%BA%E6%9C%80%E5%B0%91%E6%95%B0%E7%9B%AE%E7%9A%84%E9%AD%94%E6%B3%95%E8%B1%86/</link>
+    <pubDate>Thu, 18 Jan 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2171-%E6%8B%BF%E5%87%BA%E6%9C%80%E5%B0%91%E6%95%B0%E7%9B%AE%E7%9A%84%E9%AD%94%E6%B3%95%E8%B1%86/</guid>
+    <description><![CDATA[拿出最少数目的魔法豆 题目 给定一个 正整数 数组 beans ，其中每个整数表示一个袋子里装的魔法豆的数目。 请你从每个袋子中 拿出 一些豆子（也可以 不拿出），使得]]></description>
+</item>
+</channel>
+</rss>

@@ -4,12 +4,12 @@
         <link>https://u4E0A.github.io/tags/%E7%8A%B6%E6%80%81%E6%90%9C%E7%B4%A2/</link>
         <description>状态搜索 - Tag - u4E0A的博客</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 08 Mar 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/%E7%8A%B6%E6%80%81%E6%90%9C%E7%B4%A2/" rel="self" type="application/rss+xml" /><item>
-    <title>算法 ALGO 1001 跳马</title>
-    <link>https://u4E0A.github.io/algo-1001-%E8%B7%B3%E9%A9%AC/</link>
+    <title>蓝桥杯 1001 跳马</title>
+    <link>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-1001-%E8%B7%B3%E9%A9%AC/</link>
     <pubDate>Wed, 08 Mar 2023 00:00:00 &#43;0000</pubDate>
     <author>u4E0A</author>
-    <guid>https://u4E0A.github.io/algo-1001-%E8%B7%B3%E9%A9%AC/</guid>
-    <description><![CDATA[试题 算法训练 跳马 题目 问题描述 一个8×8的棋盘上有一个马初始位置为(a,b)，他想跳到(c,d)，问是否可以？如果可以，最少要跳几步？ 输入格式]]></description>
+    <guid>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-1001-%E8%B7%B3%E9%A9%AC/</guid>
+    <description><![CDATA[跳马 题目 问题描述 一个8×8的棋盘上有一个马初始位置为(a,b)，他想跳到(c,d)，问是否可以？如果可以，最少要跳几步？ 输入格式 一行四个数字]]></description>
 </item>
 </channel>
 </rss>
