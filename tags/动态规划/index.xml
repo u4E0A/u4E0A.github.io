@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>动态规划 - Tag - u4E0A的博客</title>
+        <link>https://u4E0A.github.io/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/</link>
+        <description>动态规划 - Tag - u4E0A的博客</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 19 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/" rel="self" type="application/rss+xml" /><item>
+    <title>力扣 2809 使数组和小于等于x的最少时间</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2809-%E4%BD%BF%E6%95%B0%E7%BB%84%E5%92%8C%E5%B0%8F%E4%BA%8E%E7%AD%89%E4%BA%8Ex%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</link>
+    <pubDate>Fri, 19 Jan 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2809-%E4%BD%BF%E6%95%B0%E7%BB%84%E5%92%8C%E5%B0%8F%E4%BA%8E%E7%AD%89%E4%BA%8Ex%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</guid>
+    <description><![CDATA[使数组和小于等于x的最少时间 题目 给你两个长度相等下标从 0 开始的整数数组 nums1 和 nums2 。每一秒，对于所有下标 0 &lt;= i &lt; nums1.length ，nums1[i] 的值都增加 nums2[i] 。]]></description>
+</item>
+</channel>
+</rss>

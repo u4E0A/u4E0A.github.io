@@ -3,7 +3,15 @@
         <title>算法 - Category - u4E0A的博客</title>
         <link>https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/</link>
         <description>算法 - Category - u4E0A的博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 18 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 19 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+    <title>力扣 2809 使数组和小于等于x的最少时间</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2809-%E4%BD%BF%E6%95%B0%E7%BB%84%E5%92%8C%E5%B0%8F%E4%BA%8E%E7%AD%89%E4%BA%8Ex%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</link>
+    <pubDate>Fri, 19 Jan 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2809-%E4%BD%BF%E6%95%B0%E7%BB%84%E5%92%8C%E5%B0%8F%E4%BA%8E%E7%AD%89%E4%BA%8Ex%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</guid>
+    <description><![CDATA[使数组和小于等于x的最少时间 题目 给你两个长度相等下标从 0 开始的整数数组 nums1 和 nums2 。每一秒，对于所有下标 0 &lt;= i &lt; nums1.length ，nums1[i] 的值都增加 nums2[i] 。]]></description>
+</item>
+<item>
     <title>力扣 2171 拿出最少数目的魔法豆</title>
     <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2171-%E6%8B%BF%E5%87%BA%E6%9C%80%E5%B0%91%E6%95%B0%E7%9B%AE%E7%9A%84%E9%AD%94%E6%B3%95%E8%B1%86/</link>
     <pubDate>Thu, 18 Jan 2024 00:00:00 &#43;0000</pubDate>
@@ -74,14 +82,6 @@
     <author>u4E0A</author>
     <guid>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-999-%E6%95%B0%E7%9A%84%E6%BD%9C%E8%83%BD/</guid>
     <description><![CDATA[数的潜能 题目 问题描述 将一个数N分为多个正整数之和，即N=a1+a2+a3+…+ak，定义M=a1a2a3*…*ak为N的潜能。 给定N，求它的]]></description>
-</item>
-<item>
-    <title>蓝桥杯 1001 跳马</title>
-    <link>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-1001-%E8%B7%B3%E9%A9%AC/</link>
-    <pubDate>Wed, 08 Mar 2023 00:00:00 &#43;0000</pubDate>
-    <author>u4E0A</author>
-    <guid>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-1001-%E8%B7%B3%E9%A9%AC/</guid>
-    <description><![CDATA[跳马 题目 问题描述 一个8×8的棋盘上有一个马初始位置为(a,b)，他想跳到(c,d)，问是否可以？如果可以，最少要跳几步？ 输入格式 一行四个数字]]></description>
 </item>
 </channel>
 </rss>
