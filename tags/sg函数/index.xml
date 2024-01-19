@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>SG - Tag - u4E0A的博客</title>
-        <link>https://u4E0A.github.io/tags/sg/</link>
-        <description>SG - Tag - u4E0A的博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 06 Apr 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/sg/" rel="self" type="application/rss+xml" /><item>
+        <title>SG函数 - Tag - u4E0A的博客</title>
+        <link>https://u4E0A.github.io/tags/sg%E5%87%BD%E6%95%B0/</link>
+        <description>SG函数 - Tag - u4E0A的博客</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 06 Apr 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/sg%E5%87%BD%E6%95%B0/" rel="self" type="application/rss+xml" /><item>
     <title>蓝桥杯 835 盾神与格子游戏</title>
     <link>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-835-%E7%9B%BE%E7%A5%9E%E4%B8%8E%E6%A0%BC%E5%AD%90%E6%B8%B8%E6%88%8F/</link>
     <pubDate>Thu, 06 Apr 2023 00:00:00 &#43;0000</pubDate>
