@@ -3,7 +3,15 @@
         <title>贪心 - Tag - u4E0A的博客</title>
         <link>https://u4E0A.github.io/tags/%E8%B4%AA%E5%BF%83/</link>
         <description>贪心 - Tag - u4E0A的博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 18 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/%E8%B4%AA%E5%BF%83/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/%E8%B4%AA%E5%BF%83/" rel="self" type="application/rss+xml" /><item>
+    <title>力扣 410 分割数组的最大值</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-410-%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</link>
+    <pubDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-410-%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</guid>
+    <description><![CDATA[分割数组的最大值 题目 给定一个非负整数数组 nums 和一个整数 k ，你需要将这个数组分成 k 个非空的连续子数组。 设计一个算法使得这 k 个子数组各自和的最大值]]></description>
+</item>
+<item>
     <title>力扣 2171 拿出最少数目的魔法豆</title>
     <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2171-%E6%8B%BF%E5%87%BA%E6%9C%80%E5%B0%91%E6%95%B0%E7%9B%AE%E7%9A%84%E9%AD%94%E6%B3%95%E8%B1%86/</link>
     <pubDate>Thu, 18 Jan 2024 00:00:00 &#43;0000</pubDate>

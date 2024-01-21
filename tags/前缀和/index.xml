@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>前缀和 - Tag - u4E0A的博客</title>
+        <link>https://u4E0A.github.io/tags/%E5%89%8D%E7%BC%80%E5%92%8C/</link>
+        <description>前缀和 - Tag - u4E0A的博客</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/%E5%89%8D%E7%BC%80%E5%92%8C/" rel="self" type="application/rss+xml" /><item>
+    <title>力扣 410 分割数组的最大值</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-410-%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</link>
+    <pubDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-410-%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</guid>
+    <description><![CDATA[分割数组的最大值 题目 给定一个非负整数数组 nums 和一个整数 k ，你需要将这个数组分成 k 个非空的连续子数组。 设计一个算法使得这 k 个子数组各自和的最大值]]></description>
+</item>
+</channel>
+</rss>

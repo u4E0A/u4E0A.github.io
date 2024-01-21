@@ -3,7 +3,15 @@
         <title>All Posts - u4E0A的博客</title>
         <link>https://u4E0A.github.io/posts/</link>
         <description>All Posts | u4E0A的博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 19 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>力扣 410 分割数组的最大值</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-410-%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</link>
+    <pubDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-410-%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</guid>
+    <description><![CDATA[分割数组的最大值 题目 给定一个非负整数数组 nums 和一个整数 k ，你需要将这个数组分成 k 个非空的连续子数组。 设计一个算法使得这 k 个子数组各自和的最大值]]></description>
+</item>
+<item>
     <title>力扣 2809 使数组和小于等于x的最少时间</title>
     <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2809-%E4%BD%BF%E6%95%B0%E7%BB%84%E5%92%8C%E5%B0%8F%E4%BA%8E%E7%AD%89%E4%BA%8Ex%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</link>
     <pubDate>Fri, 19 Jan 2024 00:00:00 &#43;0000</pubDate>
@@ -74,14 +82,6 @@
     <author>u4E0A</author>
     <guid>https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E7%8E%AF%E4%B8%8E%E5%9F%9F/</guid>
     <description><![CDATA[第四章 环与域 环 对 $+$ 交换群 对 $\cdot$ 满足结合律 $(a\cdot b)\cdot c=a\cdot (b\cdot c)$ $\cdot$ 对 $+$ 满足左右分配律 $a\cdot (b+c)=a\cdot b+a\cdot c,(b+c)\cdot a=b\cdot a+c\cdot a$ 环 $R$ 性质，$a,b \in R ,m,n \in Z^+,ma=a+a+\cdots+a,a^m=a \cdot a\cdot \ \cdots \ \cdot a$ $a\cdot 0=0\cdot a=0$ $a \cdot (-b)=(-a)\cdot b=-(ab)$ $n(a+b)=na+nb$]]></description>
-</item>
-<item>
-    <title>蓝桥杯 835 盾神与格子游戏</title>
-    <link>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-835-%E7%9B%BE%E7%A5%9E%E4%B8%8E%E6%A0%BC%E5%AD%90%E6%B8%B8%E6%88%8F/</link>
-    <pubDate>Thu, 06 Apr 2023 00:00:00 &#43;0000</pubDate>
-    <author>u4E0A</author>
-    <guid>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-835-%E7%9B%BE%E7%A5%9E%E4%B8%8E%E6%A0%BC%E5%AD%90%E6%B8%B8%E6%88%8F/</guid>
-    <description><![CDATA[盾神与格子游戏 题目 问题描述 在盾神很小很小还不会怎样编程的时候，他迷上了一款风靡一时的双人游戏！游戏双方在地上画n个格子，然后在最后一格放上一]]></description>
 </item>
 </channel>
 </rss>

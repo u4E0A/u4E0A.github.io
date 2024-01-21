@@ -3,7 +3,15 @@
         <title>算法 - Category - u4E0A的博客</title>
         <link>https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/</link>
         <description>算法 - Category - u4E0A的博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 19 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+    <title>力扣 410 分割数组的最大值</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-410-%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</link>
+    <pubDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-410-%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</guid>
+    <description><![CDATA[分割数组的最大值 题目 给定一个非负整数数组 nums 和一个整数 k ，你需要将这个数组分成 k 个非空的连续子数组。 设计一个算法使得这 k 个子数组各自和的最大值]]></description>
+</item>
+<item>
     <title>力扣 2809 使数组和小于等于x的最少时间</title>
     <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2809-%E4%BD%BF%E6%95%B0%E7%BB%84%E5%92%8C%E5%B0%8F%E4%BA%8E%E7%AD%89%E4%BA%8Ex%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</link>
     <pubDate>Fri, 19 Jan 2024 00:00:00 &#43;0000</pubDate>
@@ -74,14 +82,6 @@
     <author>u4E0A</author>
     <guid>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-981-%E8%BF%87%E6%B2%B3%E9%A9%AC/</guid>
     <description><![CDATA[过河马 题目 问题描述 在那个过河卒逃过了马的控制以超级超级多的走法走到了终点之后，这匹马表示它不开心了…… 于是，终于有一天，它也过河了！ 由于过河]]></description>
-</item>
-<item>
-    <title>蓝桥杯 999 数的潜能</title>
-    <link>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-999-%E6%95%B0%E7%9A%84%E6%BD%9C%E8%83%BD/</link>
-    <pubDate>Thu, 09 Mar 2023 00:00:00 &#43;0000</pubDate>
-    <author>u4E0A</author>
-    <guid>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-999-%E6%95%B0%E7%9A%84%E6%BD%9C%E8%83%BD/</guid>
-    <description><![CDATA[数的潜能 题目 问题描述 将一个数N分为多个正整数之和，即N=a1+a2+a3+…+ak，定义M=a1a2a3*…*ak为N的潜能。 给定N，求它的]]></description>
 </item>
 </channel>
 </rss>
