@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>力扣 514 自由之路 - u4E0A的博客</title><meta name="Description" content="这是u4E0A的博客"><meta property="og:title" content="力扣 514 自由之路" />
+<meta property="og:description" content="自由之路 题目 电子游戏“辐射4”中，任务 “通向自由” 要求玩家到达名为 “Freedom Trail Ring” 的金属表盘，并使用表盘拼写特定关键词才能开门。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-514-%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/" /><meta property="og:image" content="https://u4E0A.github.io/logo.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-01-29T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-01-29T00:00:00+00:00" /><meta property="og:site_name" content="u4E0A的博客" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://u4E0A.github.io/logo.png" /><meta name="twitter:title" content="力扣 514 自由之路"/>
+<meta name="twitter:description" content="自由之路 题目 电子游戏“辐射4”中，任务 “通向自由” 要求玩家到达名为 “Freedom Trail Ring” 的金属表盘，并使用表盘拼写特定关键词才能开门。"/>
+<meta name="application-name" content="u4E0A的博客">
+<meta name="apple-mobile-web-app-title" content="u4E0A的博客"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-514-%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/" /><link rel="prev" href="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-410-%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "力扣 514 自由之路",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/u4E0A.github.io\/%E5%8A%9B%E6%89%A3-514-%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF\/"
+        },"genre": "posts","keywords": "深度优先搜索, 广度优先搜索, 字符串, 动态规划","wordcount":  1078 ,
+        "url": "https:\/\/u4E0A.github.io\/%E5%8A%9B%E6%89%A3-514-%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF\/","datePublished": "2024-01-29T00:00:00+00:00","dateModified": "2024-01-29T00:00:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "力扣官方题解"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="u4E0A的博客"><span class="header-title-pre"><i class='far fa-grin-stars'></i></span>u4E0A的博客</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="u4E0A的博客"><span class="header-title-pre"><i class='far fa-grin-stars'></i></span>u4E0A的博客</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">力扣 514 自由之路</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://leetcode.cn/problems/freedom-trail/solutions/480315/zi-you-zhi-lu-by-leetcode-solution/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>力扣官方题解</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%E7%AE%97%E6%B3%95/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>算法</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-01-29">2024-01-29</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1078 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;3 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="true">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#题目">题目</a></li>
+    <li><a href="#题解">题解</a></li>
+    <li><a href="#代码">代码</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="自由之路">自由之路</h1>
+<h2 id="题目">题目</h2>
+<blockquote>
+<p>电子游戏“辐射4”中，任务 <strong>“通向自由”</strong> 要求玩家到达名为 “<strong>Freedom Trail Ring”</strong> 的金属表盘，并使用表盘拼写特定关键词才能开门。</p>
+<p>给定一个字符串 <code>ring</code> ，表示刻在外环上的编码；给定另一个字符串 <code>key</code> ，表示需要拼写的关键词。您需要算出能够拼写关键词中所有字符的<strong>最少</strong>步数。</p>
+<p>最初，<strong>ring</strong> 的第一个字符与 <code>12:00</code> 方向对齐。您需要顺时针或逆时针旋转 <code>ring</code> 以使 <strong>key</strong> 的一个字符在 <code>12:00</code> 方向对齐，然后按下中心按钮，以此逐个拼写完 <strong><code>key</code></strong> 中的所有字符。</p>
+<p>旋转 <code>ring</code> 拼出 key 字符 <code>key[i]</code> 的阶段中：</p>
+<ol>
+<li>您可以将 <strong>ring</strong> 顺时针或逆时针旋转 <strong>一个位置</strong> ，计为1步。旋转的最终目的是将字符串 <strong><code>ring</code></strong> 的一个字符与 <code>12:00</code> 方向对齐，并且这个字符必须等于字符 <strong><code>key[i]</code> 。</strong></li>
+<li>如果字符 <strong><code>key[i]</code></strong> 已经对齐到12:00方向，您需要按下中心按钮进行拼写，这也将算作 <strong>1 步</strong>。按完之后，您可以开始拼写 <strong>key</strong> 的下一个字符（下一阶段）, 直至完成所有拼写。</li>
+</ol>
+<p><strong>示例 1：</strong></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://assets.leetcode.com/uploads/2018/10/22/ring.jpg"
+        data-srcset="https://assets.leetcode.com/uploads/2018/10/22/ring.jpg, https://assets.leetcode.com/uploads/2018/10/22/ring.jpg 1.5x, https://assets.leetcode.com/uploads/2018/10/22/ring.jpg 2x"
+        data-sizes="auto"
+        alt="https://assets.leetcode.com/uploads/2018/10/22/ring.jpg"
+        title="img" /></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">输入: ring = &#34;godding&#34;, key = &#34;gd&#34;
+</span></span><span class="line"><span class="cl">输出: 4
+</span></span><span class="line"><span class="cl">解释:
+</span></span><span class="line"><span class="cl"> 对于 key 的第一个字符 &#39;g&#39;，已经在正确的位置, 我们只需要1步来拼写这个字符。 
+</span></span><span class="line"><span class="cl"> 对于 key 的第二个字符 &#39;d&#39;，我们需要逆时针旋转 ring &#34;godding&#34; 2步使它变成 &#34;ddinggo&#34;。
+</span></span><span class="line"><span class="cl"> 当然, 我们还需要1步进行拼写。
+</span></span><span class="line"><span class="cl"> 因此最终的输出是 4。
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>示例 2:</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">输入: ring = &#34;godding&#34;, key = &#34;godding&#34;
+</span></span><span class="line"><span class="cl">输出: 13
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>提示：</strong></p>
+<ul>
+<li><code>1 &lt;= ring.length, key.length &lt;= 100</code></li>
+<li><code>ring</code> 和 <code>key</code> 只包含小写英文字母</li>
+<li><strong>保证</strong> 字符串 <code>key</code> 一定可以由字符串  <code>ring</code> 旋转拼出</li>
+</ul>
+</blockquote>
+<h2 id="题解">题解</h2>
+<p>定义 $\textit{dp}[i][j]$ 表示从前往后拼写出 key\textit{key}key 的第 iii 个字符， $\textit{ring}$ 的第 $j$ 个字符与 12:00 方向对齐的最少步数（下标均从 $0$ 开始）。</p>
+<p>显然，只有当字符串 $\textit{ring}$ 的第 $j$ 个字符需要和 $\textit{key}$ 的第 $i$ 个字符相同时才能拼写出 $\textit{key}$ 的第 $i$ 个字符，因此对于 $\textit{key}$ 的第 $i$ 个字符，需要考虑计算的 $\textit{ring}$ 的第 $j$ 个字符只有 $\textit{key}[i]$ 在 $r\textit{ring}$ 中出现的下标集合。我们对每个字符维护一个位置数组 $\textit{pos}[i]$，表示字符 $i$ 在 $\textit{ring}$ 中出现的位置集合，用来加速计算转移的过程。</p>
+<p>对于状态 $\textit{dp}[i][j]$，需要枚举上一次与 12:00 方向对齐的位置 $k$，因此可以列出如下的转移方程：</p>
+<p>$$
+\textit{dp}[i][j]=\min_{k \in pos[key[i-1]]}{dp[i-1][k]+\min{\text{abs}(j-k),n-\text{abs}(j-k)}+1}
+$$</p>
+<p>其中 $\min{\text{abs}(j-k),n-\text{abs}(j-k)}+1$ 表示在当前第 $k$ 个字符与 12:00 方向对齐时第 $j$ 个字符旋转到 12:00 方向并按下拼写的最少步数。</p>
+<p>最后答案即为 $\min_{i=0}^{n-1}{\textit{dp}[m-1][i]}$</p>
+<p>这样的做法需要开辟 $O(mn)$ 的空间来存放 $\textit{dp}$ 值。考虑到每次转移状态 $\textit{dp}[i][]$ 只会从 $\textit{dp}[i-1][]$ 转移过来，因此我们可以利用滚动数组优化第一维的空间复杂度，有能力的读者可以尝试实现。下面只给出最朴素的 $O(mn)$ 空间复杂度的实现。</p>
+<h2 id="代码">代码</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">findRotateSteps</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ring</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">key</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">n</span><span class="p">,</span> <span class="n">m</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">ring</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">pos</span> <span class="o">=</span> <span class="p">[[]</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">26</span><span class="p">)]</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="n">pos</span><span class="p">[</span><span class="nb">ord</span><span class="p">(</span><span class="n">ring</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="o">-</span> <span class="nb">ord</span><span class="p">(</span><span class="s1">&#39;a&#39;</span><span class="p">)]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="n">dp</span> <span class="o">=</span> <span class="p">[[</span><span class="mh">0x3f3f3f3f</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">)]</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">m</span><span class="p">)]</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">pos</span><span class="p">[</span><span class="nb">ord</span><span class="p">(</span><span class="n">key</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">-</span> <span class="nb">ord</span><span class="p">(</span><span class="s1">&#39;a&#39;</span><span class="p">)]:</span>
+</span></span><span class="line"><span class="cl">            <span class="n">dp</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">n</span> <span class="o">-</span> <span class="n">i</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">m</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="n">pos</span><span class="p">[</span><span class="nb">ord</span><span class="p">(</span><span class="n">key</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="o">-</span> <span class="nb">ord</span><span class="p">(</span><span class="s1">&#39;a&#39;</span><span class="p">)]:</span>
+</span></span><span class="line"><span class="cl">                <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">pos</span><span class="p">[</span><span class="nb">ord</span><span class="p">(</span><span class="n">key</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">])</span> <span class="o">-</span> <span class="nb">ord</span><span class="p">(</span><span class="s1">&#39;a&#39;</span><span class="p">)]:</span>
+</span></span><span class="line"><span class="cl">                    <span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">dp</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">],</span> <span class="n">dp</span><span class="p">[</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">][</span><span class="n">k</span><span class="p">]</span> <span class="o">+</span> <span class="nb">min</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">j</span> <span class="o">-</span> <span class="n">k</span><span class="p">),</span> <span class="n">n</span> <span class="o">-</span> <span class="nb">abs</span><span class="p">(</span><span class="n">j</span> <span class="o">-</span> <span class="n">k</span><span class="p">))</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="nb">min</span><span class="p">(</span><span class="n">dp</span><span class="p">[</span><span class="n">m</span> <span class="o">-</span> <span class="mi">1</span><span class="p">])</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2024-01-29</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/%E5%8A%9B%E6%89%A3-514-%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-514-%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/" data-title="力扣 514 自由之路" data-hashtags="深度优先搜索,广度优先搜索,字符串,动态规划"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-514-%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/" data-hashtag="深度优先搜索"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-514-%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/" data-title="力扣 514 自由之路"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-514-%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/" data-title="力扣 514 自由之路"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-514-%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/" data-title="力扣 514 自由之路"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/">深度优先搜索</a>,&nbsp;<a href="/tags/%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/">广度优先搜索</a>,&nbsp;<a href="/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/">字符串</a>,&nbsp;<a href="/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/">动态规划</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/%E5%8A%9B%E6%89%A3-410-%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/" class="prev" rel="prev" title="力扣 410 分割数组的最大值"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>力扣 410 分割数组的最大值</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.122.0">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2021 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">u4E0A</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"algoliaAppID":"EI82UR0QY1","algoliaIndex":"hugo-blog","algoliaSearchKey":"3578420497e956d2e03a304be8841e9d","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":50,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

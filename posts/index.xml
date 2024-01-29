@@ -3,7 +3,15 @@
         <title>All Posts - u4E0A的博客</title>
         <link>https://u4E0A.github.io/posts/</link>
         <description>All Posts | u4E0A的博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 29 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>力扣 514 自由之路</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-514-%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/</link>
+    <pubDate>Mon, 29 Jan 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-514-%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/</guid>
+    <description><![CDATA[自由之路 题目 电子游戏“辐射4”中，任务 “通向自由” 要求玩家到达名为 “Freedom Trail Ring” 的金属表盘，并使用表盘拼写特定关键词才能开门。]]></description>
+</item>
+<item>
     <title>力扣 410 分割数组的最大值</title>
     <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-410-%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</link>
     <pubDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</pubDate>
@@ -74,14 +82,6 @@
     <author>u4E0A</author>
     <guid>https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E6%9C%89%E9%99%90%E5%9F%9F/</guid>
     <description><![CDATA[第六章 有限域 当 $p$ 是素数时，模 $p$ 剩余类集合构成 $p$ 阶有限域 $GF(p)={\overline0,\overline1,\overline2,\cdots,\overline{p-1}}$ $q$ 阶有限域 $GF(q)$ 的所有非零元构成 $q-1$ 阶乘法交换群 $G=GF(q)/{0}$ $o(a)=n$ 是使 $a^n=1$ 的最小正整数 $n$ 阶循环群 $\lang a \rangle={a^0,a^1,a^2,\dots,a^{n-1}}$ $\forall a]]></description>
-</item>
-<item>
-    <title>信息安全数学基础 第四章 环与域</title>
-    <link>https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E7%8E%AF%E4%B8%8E%E5%9F%9F/</link>
-    <pubDate>Fri, 03 Nov 2023 00:00:00 &#43;0000</pubDate>
-    <author>u4E0A</author>
-    <guid>https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E7%8E%AF%E4%B8%8E%E5%9F%9F/</guid>
-    <description><![CDATA[第四章 环与域 环 对 $+$ 交换群 对 $\cdot$ 满足结合律 $(a\cdot b)\cdot c=a\cdot (b\cdot c)$ $\cdot$ 对 $+$ 满足左右分配律 $a\cdot (b+c)=a\cdot b+a\cdot c,(b+c)\cdot a=b\cdot a+c\cdot a$ 环 $R$ 性质，$a,b \in R ,m,n \in Z^+,ma=a+a+\cdots+a,a^m=a \cdot a\cdot \ \cdots \ \cdot a$ $a\cdot 0=0\cdot a=0$ $a \cdot (-b)=(-a)\cdot b=-(ab)$ $n(a+b)=na+nb$]]></description>
 </item>
 </channel>
 </rss>

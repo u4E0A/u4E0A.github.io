@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>广度优先搜索 - Tag - u4E0A的博客</title>
+        <link>https://u4E0A.github.io/tags/%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/</link>
+        <description>广度优先搜索 - Tag - u4E0A的博客</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 29 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/" rel="self" type="application/rss+xml" /><item>
+    <title>力扣 514 自由之路</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-514-%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/</link>
+    <pubDate>Mon, 29 Jan 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-514-%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/</guid>
+    <description><![CDATA[自由之路 题目 电子游戏“辐射4”中，任务 “通向自由” 要求玩家到达名为 “Freedom Trail Ring” 的金属表盘，并使用表盘拼写特定关键词才能开门。]]></description>
+</item>
+</channel>
+</rss>

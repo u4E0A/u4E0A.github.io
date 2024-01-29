@@ -120,6 +120,7 @@ class Solution {
             }
         }
         while (left < right) {
+            // 这里的二分中值取 mid = (right - left) / 2 + left 是为了防止 (left + right) / 2 的计算结果溢出整型范围。
             int mid = (right - left) / 2 + left;
             if (check(nums, mid, m)) {
                 right = mid;
