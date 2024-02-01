@@ -17,7 +17,7 @@
 <meta name="application-name" content="u4E0A的博客">
 <meta name="apple-mobile-web-app-title" content="u4E0A的博客"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-514-%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/" /><link rel="prev" href="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-410-%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-514-%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/" /><link rel="prev" href="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-410-%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/" /><link rel="next" href="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-lcp-24-%E6%95%B0%E5%AD%97%E6%B8%B8%E6%88%8F/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
     {
@@ -175,7 +175,7 @@
 </ul>
 </blockquote>
 <h2 id="题解">题解</h2>
-<p>定义 $\textit{dp}[i][j]$ 表示从前往后拼写出 key\textit{key}key 的第 iii 个字符， $\textit{ring}$ 的第 $j$ 个字符与 12:00 方向对齐的最少步数（下标均从 $0$ 开始）。</p>
+<p>定义 $\textit{dp}[i][j]$ 表示从前往后拼写出 $\textit{key}$ 的第 $i$ 个字符， $\textit{ring}$ 的第 $j$ 个字符与 12:00 方向对齐的最少步数（下标均从 $0$ 开始）。</p>
 <p>显然，只有当字符串 $\textit{ring}$ 的第 $j$ 个字符需要和 $\textit{key}$ 的第 $i$ 个字符相同时才能拼写出 $\textit{key}$ 的第 $i$ 个字符，因此对于 $\textit{key}$ 的第 $i$ 个字符，需要考虑计算的 $\textit{ring}$ 的第 $j$ 个字符只有 $\textit{key}[i]$ 在 $r\textit{ring}$ 中出现的下标集合。我们对每个字符维护一个位置数组 $\textit{pos}[i]$，表示字符 $i$ 在 $\textit{ring}$ 中出现的位置集合，用来加速计算转移的过程。</p>
 <p>对于状态 $\textit{dp}[i][j]$，需要枚举上一次与 12:00 方向对齐的位置 $k$，因此可以列出如下的转移方程：</p>
 <p>$$
@@ -242,7 +242,8 @@ $$</p>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/%E5%8A%9B%E6%89%A3-410-%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/" class="prev" rel="prev" title="力扣 410 分割数组的最大值"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>力扣 410 分割数组的最大值</a></div>
+    <div class="post-nav"><a href="/%E5%8A%9B%E6%89%A3-410-%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/" class="prev" rel="prev" title="力扣 410 分割数组的最大值"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>力扣 410 分割数组的最大值</a>
+            <a href="/%E5%8A%9B%E6%89%A3-lcp-24-%E6%95%B0%E5%AD%97%E6%B8%B8%E6%88%8F/" class="next" rel="next" title="力扣 LCP 24 数字游戏">力扣 LCP 24 数字游戏<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 </article></div>
             </main><footer class="footer">

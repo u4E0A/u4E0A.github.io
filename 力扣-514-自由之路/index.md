@@ -51,7 +51,7 @@
 
 ## 题解
 
-定义 $\textit{dp}[i][j]$ 表示从前往后拼写出 key\textit{key}key 的第 iii 个字符， $\textit{ring}$ 的第 $j$ 个字符与 12:00 方向对齐的最少步数（下标均从 $0$ 开始）。
+定义 $\textit{dp}[i][j]$ 表示从前往后拼写出 $\textit{key}$ 的第 $i$ 个字符， $\textit{ring}$ 的第 $j$ 个字符与 12:00 方向对齐的最少步数（下标均从 $0$ 开始）。
 
 显然，只有当字符串 $\textit{ring}$ 的第 $j$ 个字符需要和 $\textit{key}$ 的第 $i$ 个字符相同时才能拼写出 $\textit{key}$ 的第 $i$ 个字符，因此对于 $\textit{key}$ 的第 $i$ 个字符，需要考虑计算的 $\textit{ring}$ 的第 $j$ 个字符只有 $\textit{key}[i]$ 在 $r\textit{ring}$ 中出现的下标集合。我们对每个字符维护一个位置数组 $\textit{pos}[i]$，表示字符 $i$ 在 $\textit{ring}$ 中出现的位置集合，用来加速计算转移的过程。
 

@@ -3,7 +3,15 @@
         <title>All Posts - u4E0A的博客</title>
         <link>https://u4E0A.github.io/posts/</link>
         <description>All Posts | u4E0A的博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 29 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 01 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>力扣 LCP 24 数字游戏</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-lcp-24-%E6%95%B0%E5%AD%97%E6%B8%B8%E6%88%8F/</link>
+    <pubDate>Thu, 01 Feb 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-lcp-24-%E6%95%B0%E5%AD%97%E6%B8%B8%E6%88%8F/</guid>
+    <description><![CDATA[数字游戏 题目 小扣在秋日市集入口处发现了一个数字游戏。主办方共有 N 个计数器，计数器编号为 0 ~ N-1。每个计数器上分别显示了一个数字，小扣按计数]]></description>
+</item>
+<item>
     <title>力扣 514 自由之路</title>
     <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-514-%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/</link>
     <pubDate>Mon, 29 Jan 2024 00:00:00 &#43;0000</pubDate>
@@ -74,14 +82,6 @@
     <author>u4E0A</author>
     <guid>https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%94%E7%AB%A0-%E5%A4%9A%E9%A1%B9%E5%BC%8F%E7%8E%AF/</guid>
     <description><![CDATA[第五章 多项式环 $F$ 是一个域，我们称 $f(x)=a_nx^n+a_{n-1}x^{n-1}+ \cdots+a_1x+a_0(a_i \in F,n \in N)$ 是 $F$ 上的一元多项式 $x$ 未定元 $a_n \neq 0,a_nx^n$ 为 $f(x)$ 首项 $deg(f(x))=n$ 为 $f(x)$ 次数 首一多项式 $f(x)=1 \cdot x^n+a_{n-1}x^{n-1}+ \cdots+a_1x+a_0(a_i \in F,n \in N)$ $f(x)=a_0 \neq 0 \implies deg(f(x))=0$ 零次多项式]]></description>
-</item>
-<item>
-    <title>信息安全数学基础 第六章 有限域</title>
-    <link>https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E6%9C%89%E9%99%90%E5%9F%9F/</link>
-    <pubDate>Fri, 03 Nov 2023 00:00:00 &#43;0000</pubDate>
-    <author>u4E0A</author>
-    <guid>https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E5%85%AD%E7%AB%A0-%E6%9C%89%E9%99%90%E5%9F%9F/</guid>
-    <description><![CDATA[第六章 有限域 当 $p$ 是素数时，模 $p$ 剩余类集合构成 $p$ 阶有限域 $GF(p)={\overline0,\overline1,\overline2,\cdots,\overline{p-1}}$ $q$ 阶有限域 $GF(q)$ 的所有非零元构成 $q-1$ 阶乘法交换群 $G=GF(q)/{0}$ $o(a)=n$ 是使 $a^n=1$ 的最小正整数 $n$ 阶循环群 $\lang a \rangle={a^0,a^1,a^2,\dots,a^{n-1}}$ $\forall a]]></description>
 </item>
 </channel>
 </rss>

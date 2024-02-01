@@ -3,7 +3,15 @@
         <title>算法 - Category - u4E0A的博客</title>
         <link>https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/</link>
         <description>算法 - Category - u4E0A的博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 29 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 01 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+    <title>力扣 LCP 24 数字游戏</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-lcp-24-%E6%95%B0%E5%AD%97%E6%B8%B8%E6%88%8F/</link>
+    <pubDate>Thu, 01 Feb 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-lcp-24-%E6%95%B0%E5%AD%97%E6%B8%B8%E6%88%8F/</guid>
+    <description><![CDATA[数字游戏 题目 小扣在秋日市集入口处发现了一个数字游戏。主办方共有 N 个计数器，计数器编号为 0 ~ N-1。每个计数器上分别显示了一个数字，小扣按计数]]></description>
+</item>
+<item>
     <title>力扣 514 自由之路</title>
     <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-514-%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/</link>
     <pubDate>Mon, 29 Jan 2024 00:00:00 &#43;0000</pubDate>
@@ -74,14 +82,6 @@
     <author>u4E0A</author>
     <guid>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-839-b%E5%90%9B%E7%9A%84%E5%B8%8C%E6%9C%9B/</guid>
     <description><![CDATA[B君的希望 题目 问题描述 你有个同学叫B君，他早听闻祖国河山秀丽，列了一张所有可能爬的山的高度表，因“人往高处走”的说法，所以他希望要爬的山按照]]></description>
-</item>
-<item>
-    <title>蓝桥杯 964 筛法</title>
-    <link>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-964-%E7%AD%9B%E6%B3%95/</link>
-    <pubDate>Sat, 11 Mar 2023 00:00:00 &#43;0000</pubDate>
-    <author>u4E0A</author>
-    <guid>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-964-%E7%AD%9B%E6%B3%95/</guid>
-    <description><![CDATA[筛法 题目 问题描述 炫炫学了筛法之后，很想用筛法求欧拉函数。他决定求1到N的所有数的欧拉函数值。 输入格式 输入的第一行包含1个整数n,。 输出格式 输]]></description>
 </item>
 </channel>
 </rss>
