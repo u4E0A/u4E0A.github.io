@@ -3,7 +3,15 @@
         <title>数学 - Tag - u4E0A的博客</title>
         <link>https://u4E0A.github.io/tags/%E6%95%B0%E5%AD%A6/</link>
         <description>数学 - Tag - u4E0A的博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 01 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/%E6%95%B0%E5%AD%A6/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 03 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/%E6%95%B0%E5%AD%A6/" rel="self" type="application/rss+xml" /><item>
+    <title>力扣 1690 石子游戏 VII</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1690-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-vii/</link>
+    <pubDate>Sat, 03 Feb 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1690-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-vii/</guid>
+    <description><![CDATA[石子游戏 VII 题目 石子游戏中，爱丽丝和鲍勃轮流进行自己的回合，爱丽丝先开始 。 有 n 块石子排成一排。每个玩家的回合中，可以从行中 移除 最左边的石头或最]]></description>
+</item>
+<item>
     <title>力扣 LCP 24 数字游戏</title>
     <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-lcp-24-%E6%95%B0%E5%AD%97%E6%B8%B8%E6%88%8F/</link>
     <pubDate>Thu, 01 Feb 2024 00:00:00 &#43;0000</pubDate>

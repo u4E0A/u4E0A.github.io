@@ -3,7 +3,15 @@
         <title>算法 - Category - u4E0A的博客</title>
         <link>https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/</link>
         <description>算法 - Category - u4E0A的博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 01 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 03 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+    <title>力扣 1690 石子游戏 VII</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1690-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-vii/</link>
+    <pubDate>Sat, 03 Feb 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1690-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-vii/</guid>
+    <description><![CDATA[石子游戏 VII 题目 石子游戏中，爱丽丝和鲍勃轮流进行自己的回合，爱丽丝先开始 。 有 n 块石子排成一排。每个玩家的回合中，可以从行中 移除 最左边的石头或最]]></description>
+</item>
+<item>
     <title>力扣 LCP 24 数字游戏</title>
     <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-lcp-24-%E6%95%B0%E5%AD%97%E6%B8%B8%E6%88%8F/</link>
     <pubDate>Thu, 01 Feb 2024 00:00:00 &#43;0000</pubDate>
@@ -74,14 +82,6 @@
     <author>u4E0A</author>
     <guid>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-857-%E5%AE%8C%E5%85%A8%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</guid>
     <description><![CDATA[完全背包问题 题目 问题描述 有一個背包，容量為M。有N種物品，每種物品有其體積Wi與價值Vi。將這些物品的一部分放入背包，每種物品可以放任意多個]]></description>
-</item>
-<item>
-    <title>蓝桥杯 839 B君的希望</title>
-    <link>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-839-b%E5%90%9B%E7%9A%84%E5%B8%8C%E6%9C%9B/</link>
-    <pubDate>Thu, 16 Mar 2023 00:00:00 &#43;0000</pubDate>
-    <author>u4E0A</author>
-    <guid>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-839-b%E5%90%9B%E7%9A%84%E5%B8%8C%E6%9C%9B/</guid>
-    <description><![CDATA[B君的希望 题目 问题描述 你有个同学叫B君，他早听闻祖国河山秀丽，列了一张所有可能爬的山的高度表，因“人往高处走”的说法，所以他希望要爬的山按照]]></description>
 </item>
 </channel>
 </rss>
