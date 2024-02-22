@@ -3,9 +3,25 @@
         <title>u4E0A的博客</title>
         <link>https://u4E0A.github.io/</link>
         <description>这是u4E0A的博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 03 Feb 2024 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 22 Feb 2024 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://u4E0A.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>力扣 889 根据前序和后序遍历构造二叉树</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-889-%E6%A0%B9%E6%8D%AE%E5%89%8D%E5%BA%8F%E5%92%8C%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91/</link>
+    <pubDate>Thu, 22 Feb 2024 00:00:00 &#43;0000</pubDate>
+    <author>u4E0A</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-889-%E6%A0%B9%E6%8D%AE%E5%89%8D%E5%BA%8F%E5%92%8C%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91/</guid>
+    <description><![CDATA[根据前序和后序遍历构造二叉树 题目 给定两个整数数组，preorder 和 postorder ，其中 preorder 是一个具有 无重复 值的二叉树的前序遍历，postorder 是同一]]></description>
+</item>
+<item>
+    <title>力扣 1696 跳跃游戏 VI</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1696-%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F-vi/</link>
+    <pubDate>Mon, 05 Feb 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1696-%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F-vi/</guid>
+    <description><![CDATA[跳跃游戏 VI 题目 给你一个下标从 0 开始的整数数组 nums 和一个整数 k 。 一开始你在下标 0 处。每一步，你最多可以往前跳 k 步，但你不能跳出数组的边界。也就是]]></description>
+</item>
+<item>
     <title>力扣 1690 石子游戏 VII</title>
     <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1690-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-vii/</link>
     <pubDate>Sat, 03 Feb 2024 00:00:00 &#43;0000</pubDate>
@@ -68,22 +84,6 @@
     <author>u4E0A</author>
     <guid>https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%83%E7%AB%A0-%E6%A4%AD%E5%9C%86%E6%9B%B2%E7%BA%BF/</guid>
     <description><![CDATA[第七章 椭圆曲线 $GF(p)$ 上的椭圆曲线 $$ E={(x,y)\in GF(p) \times GF(p)|y^2=x^3+ax+b \ (mod \ p),4a^3+27b^2 \not\equiv 0 \ (mod \ p) } \cup {O} $$ 椭圆曲线约束方程 $4a^3+27b^2 \not\equiv 0 \ (mod \ p)$ 单位元，无穷远点 $O$ 逆元，$(x,-y)$ $GF(p)$ 上]]></description>
-</item>
-<item>
-    <title>信息安全数学基础 第三章 群</title>
-    <link>https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%89%E7%AB%A0-%E7%BE%A4/</link>
-    <pubDate>Fri, 03 Nov 2023 00:00:00 &#43;0000</pubDate>
-    <author>u4E0A</author>
-    <guid>https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%89%E7%AB%A0-%E7%BE%A4/</guid>
-    <description><![CDATA[第三章 群 群 满足结合律 $(a \circ b)\circ c=a \circ (b\circ c)$ 有单位元 $e$ 有逆元 $a^{-1}$ （运算封闭） 群 $G$ 的性质 $a\in G,e \circ a=a \circ e =a$ $\forall a \in G,\exist_{=1} b \in G,ab=ba=e$ $\forall a,b,c,ab=ac \implies b=c$ $\forall a,b \in G$ $ax=b$ 解唯一 $xa=b$ 解唯一 $\forall a,b \in]]></description>
-</item>
-<item>
-    <title>信息安全数学基础 第二章 同余</title>
-    <link>https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E5%90%8C%E4%BD%99/</link>
-    <pubDate>Fri, 03 Nov 2023 00:00:00 &#43;0000</pubDate>
-    <author>u4E0A</author>
-    <guid>https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E5%90%8C%E4%BD%99/</guid>
-    <description><![CDATA[第二章 同余 $a\equiv b(mod \ m) \iff \exist k \in Z ,a=km+b$ $a=k_1m+r_1,b=k_2m+r_2,0\leq r_1 &lt;m,0\leq r_2 &lt;m,a\equiv b(mod \ m ) \iff r_1=r_2$ $\exist a,b,c,m \in Z^+$ 自反性：$a\equiv a (mod \ m)$ 对称性：$a\equiv b(mod \ m)\implies b\equiv a (mod \ m)$ 传递性：]]></description>
 </item>
 </channel>
 </rss>
