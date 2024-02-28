@@ -3,9 +3,17 @@
         <title>u4E0A的博客</title>
         <link>https://u4E0A.github.io/</link>
         <description>这是u4E0A的博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 27 Feb 2024 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 28 Feb 2024 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://u4E0A.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>力扣 2673 使二叉树所有路径值相等的最小代价</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2673-%E4%BD%BF%E4%BA%8C%E5%8F%89%E6%A0%91%E6%89%80%E6%9C%89%E8%B7%AF%E5%BE%84%E5%80%BC%E7%9B%B8%E7%AD%89%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BB%A3%E4%BB%B7/</link>
+    <pubDate>Wed, 28 Feb 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2673-%E4%BD%BF%E4%BA%8C%E5%8F%89%E6%A0%91%E6%89%80%E6%9C%89%E8%B7%AF%E5%BE%84%E5%80%BC%E7%9B%B8%E7%AD%89%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BB%A3%E4%BB%B7/</guid>
+    <description><![CDATA[使二叉树所有路径值相等的最小代价 题目 给你一个整数 n 表示一棵 满二叉树 里面节点的数目，节点编号从 1 到 n 。根节点编号为 1 ，树中每个非叶子节点 i 都有]]></description>
+</item>
+<item>
     <title>力扣 2867 统计树中的合法路径数目</title>
     <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2867-%E7%BB%9F%E8%AE%A1%E6%A0%91%E4%B8%AD%E7%9A%84%E5%90%88%E6%B3%95%E8%B7%AF%E5%BE%84%E6%95%B0%E7%9B%AE/</link>
     <pubDate>Tue, 27 Feb 2024 00:00:00 &#43;0000</pubDate>
@@ -76,14 +84,6 @@
     <author>力扣官方题解</author>
     <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2171-%E6%8B%BF%E5%87%BA%E6%9C%80%E5%B0%91%E6%95%B0%E7%9B%AE%E7%9A%84%E9%AD%94%E6%B3%95%E8%B1%86/</guid>
     <description><![CDATA[拿出最少数目的魔法豆 题目 给定一个 正整数 数组 beans ，其中每个整数表示一个袋子里装的魔法豆的数目。 请你从每个袋子中 拿出 一些豆子（也可以 不拿出），使得]]></description>
-</item>
-<item>
-    <title>信息安全数学基础 第一章 整除</title>
-    <link>https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%80%E7%AB%A0-%E6%95%B4%E9%99%A4/</link>
-    <pubDate>Fri, 03 Nov 2023 00:00:00 &#43;0000</pubDate>
-    <author>u4E0A</author>
-    <guid>https://u4E0A.github.io/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80-%E7%AC%AC%E4%B8%80%E7%AB%A0-%E6%95%B4%E9%99%A4/</guid>
-    <description><![CDATA[第一章 整除 $\forall a,b,c \in Z$ $a|b,b|c \implies a|c$ $a|b,a|c \iff \forall x,y \in Z ,a|bx+cy$ $m\neq 0 ,a|b \iff ma|mb$ $a|b,b|a \implies a=\pm b$ $\exist a,b \in Z,a\neq 0 \implies \exist_{=1} q,r\in Z ,0\le r &lt; |a|,b=aq+r$ $\forall a,b,c \in Z$ $gcd(a,b)=gcd(b,a)=gcd(-a,b)=gcd(a,-b)$ $a|b \implies gcd(a,b)=a$ $\forall a,b\in Z,gcd (a,b)|ax+by$ $\forall a,b\in Z ,\exist x,y \in Z ,gcd(a,b)=xa+yb$ $\exist a,b,c,q\in Z ,a=bq+c\implies gcd (a,b)=gcd(b,c)$ $gcd \left (]]></description>
 </item>
 </channel>
 </rss>

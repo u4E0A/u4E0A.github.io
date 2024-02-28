@@ -3,7 +3,15 @@
         <title>动态规划 - Tag - u4E0A的博客</title>
         <link>https://u4E0A.github.io/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/</link>
         <description>动态规划 - Tag - u4E0A的博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 27 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 28 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/" rel="self" type="application/rss+xml" /><item>
+    <title>力扣 2673 使二叉树所有路径值相等的最小代价</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2673-%E4%BD%BF%E4%BA%8C%E5%8F%89%E6%A0%91%E6%89%80%E6%9C%89%E8%B7%AF%E5%BE%84%E5%80%BC%E7%9B%B8%E7%AD%89%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BB%A3%E4%BB%B7/</link>
+    <pubDate>Wed, 28 Feb 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2673-%E4%BD%BF%E4%BA%8C%E5%8F%89%E6%A0%91%E6%89%80%E6%9C%89%E8%B7%AF%E5%BE%84%E5%80%BC%E7%9B%B8%E7%AD%89%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BB%A3%E4%BB%B7/</guid>
+    <description><![CDATA[使二叉树所有路径值相等的最小代价 题目 给你一个整数 n 表示一棵 满二叉树 里面节点的数目，节点编号从 1 到 n 。根节点编号为 1 ，树中每个非叶子节点 i 都有]]></description>
+</item>
+<item>
     <title>力扣 2867 统计树中的合法路径数目</title>
     <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2867-%E7%BB%9F%E8%AE%A1%E6%A0%91%E4%B8%AD%E7%9A%84%E5%90%88%E6%B3%95%E8%B7%AF%E5%BE%84%E6%95%B0%E7%9B%AE/</link>
     <pubDate>Tue, 27 Feb 2024 00:00:00 &#43;0000</pubDate>
@@ -74,14 +82,6 @@
     <author>u4E0A</author>
     <guid>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-857-%E5%AE%8C%E5%85%A8%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98/</guid>
     <description><![CDATA[完全背包问题 题目 问题描述 有一個背包，容量為M。有N種物品，每種物品有其體積Wi與價值Vi。將這些物品的一部分放入背包，每種物品可以放任意多個]]></description>
-</item>
-<item>
-    <title>蓝桥杯 981 过河马</title>
-    <link>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-981-%E8%BF%87%E6%B2%B3%E9%A9%AC/</link>
-    <pubDate>Thu, 09 Mar 2023 00:00:00 &#43;0000</pubDate>
-    <author>u4E0A</author>
-    <guid>https://u4E0A.github.io/%E8%93%9D%E6%A1%A5%E6%9D%AF-981-%E8%BF%87%E6%B2%B3%E9%A9%AC/</guid>
-    <description><![CDATA[过河马 题目 问题描述 在那个过河卒逃过了马的控制以超级超级多的走法走到了终点之后，这匹马表示它不开心了…… 于是，终于有一天，它也过河了！ 由于过河]]></description>
 </item>
 </channel>
 </rss>

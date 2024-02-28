@@ -3,7 +3,15 @@
         <title>二叉树 - Tag - u4E0A的博客</title>
         <link>https://u4E0A.github.io/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/</link>
         <description>二叉树 - Tag - u4E0A的博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 22 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 28 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/" rel="self" type="application/rss+xml" /><item>
+    <title>力扣 2673 使二叉树所有路径值相等的最小代价</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2673-%E4%BD%BF%E4%BA%8C%E5%8F%89%E6%A0%91%E6%89%80%E6%9C%89%E8%B7%AF%E5%BE%84%E5%80%BC%E7%9B%B8%E7%AD%89%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BB%A3%E4%BB%B7/</link>
+    <pubDate>Wed, 28 Feb 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2673-%E4%BD%BF%E4%BA%8C%E5%8F%89%E6%A0%91%E6%89%80%E6%9C%89%E8%B7%AF%E5%BE%84%E5%80%BC%E7%9B%B8%E7%AD%89%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BB%A3%E4%BB%B7/</guid>
+    <description><![CDATA[使二叉树所有路径值相等的最小代价 题目 给你一个整数 n 表示一棵 满二叉树 里面节点的数目，节点编号从 1 到 n 。根节点编号为 1 ，树中每个非叶子节点 i 都有]]></description>
+</item>
+<item>
     <title>力扣 889 根据前序和后序遍历构造二叉树</title>
     <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-889-%E6%A0%B9%E6%8D%AE%E5%89%8D%E5%BA%8F%E5%92%8C%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91/</link>
     <pubDate>Thu, 22 Feb 2024 00:00:00 &#43;0000</pubDate>

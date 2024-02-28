@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>力扣 2673 使二叉树所有路径值相等的最小代价 - u4E0A的博客</title><meta name="Description" content="这是u4E0A的博客"><meta property="og:title" content="力扣 2673 使二叉树所有路径值相等的最小代价" />
+<meta property="og:description" content="使二叉树所有路径值相等的最小代价 题目 给你一个整数 n 表示一棵 满二叉树 里面节点的数目，节点编号从 1 到 n 。根节点编号为 1 ，树中每个非叶子节点 i 都有" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2673-%E4%BD%BF%E4%BA%8C%E5%8F%89%E6%A0%91%E6%89%80%E6%9C%89%E8%B7%AF%E5%BE%84%E5%80%BC%E7%9B%B8%E7%AD%89%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BB%A3%E4%BB%B7/" /><meta property="og:image" content="https://u4E0A.github.io/logo.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-02-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-02-28T00:00:00+00:00" /><meta property="og:site_name" content="u4E0A的博客" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://u4E0A.github.io/logo.png" /><meta name="twitter:title" content="力扣 2673 使二叉树所有路径值相等的最小代价"/>
+<meta name="twitter:description" content="使二叉树所有路径值相等的最小代价 题目 给你一个整数 n 表示一棵 满二叉树 里面节点的数目，节点编号从 1 到 n 。根节点编号为 1 ，树中每个非叶子节点 i 都有"/>
+<meta name="application-name" content="u4E0A的博客">
+<meta name="apple-mobile-web-app-title" content="u4E0A的博客"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2673-%E4%BD%BF%E4%BA%8C%E5%8F%89%E6%A0%91%E6%89%80%E6%9C%89%E8%B7%AF%E5%BE%84%E5%80%BC%E7%9B%B8%E7%AD%89%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BB%A3%E4%BB%B7/" /><link rel="prev" href="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2867-%E7%BB%9F%E8%AE%A1%E6%A0%91%E4%B8%AD%E7%9A%84%E5%90%88%E6%B3%95%E8%B7%AF%E5%BE%84%E6%95%B0%E7%9B%AE/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "力扣 2673 使二叉树所有路径值相等的最小代价",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/u4E0A.github.io\/%E5%8A%9B%E6%89%A3-2673-%E4%BD%BF%E4%BA%8C%E5%8F%89%E6%A0%91%E6%89%80%E6%9C%89%E8%B7%AF%E5%BE%84%E5%80%BC%E7%9B%B8%E7%AD%89%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BB%A3%E4%BB%B7\/"
+        },"genre": "posts","keywords": "贪心, 树, 数组, 动态规划, 二叉树","wordcount":  1071 ,
+        "url": "https:\/\/u4E0A.github.io\/%E5%8A%9B%E6%89%A3-2673-%E4%BD%BF%E4%BA%8C%E5%8F%89%E6%A0%91%E6%89%80%E6%9C%89%E8%B7%AF%E5%BE%84%E5%80%BC%E7%9B%B8%E7%AD%89%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BB%A3%E4%BB%B7\/","datePublished": "2024-02-28T00:00:00+00:00","dateModified": "2024-02-28T00:00:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "力扣官方题解"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="u4E0A的博客"><span class="header-title-pre"><i class='far fa-grin-stars'></i></span>u4E0A的博客</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="u4E0A的博客"><span class="header-title-pre"><i class='far fa-grin-stars'></i></span>u4E0A的博客</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">力扣 2673 使二叉树所有路径值相等的最小代价</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://leetcode.cn/problems/make-costs-of-paths-equal-in-a-binary-tree/solutions/2656293/shi-er-cha-shu-suo-you-lu-jing-zhi-xiang-65hk/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>力扣官方题解</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%E7%AE%97%E6%B3%95/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>算法</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-02-28">2024-02-28</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1071 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;3 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="true">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#题目">题目</a></li>
+    <li><a href="#题解">题解</a></li>
+    <li><a href="#代码">代码</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="使二叉树所有路径值相等的最小代价">使二叉树所有路径值相等的最小代价</h1>
+<h2 id="题目">题目</h2>
+<blockquote>
+<p>给你一个整数 <code>n</code> 表示一棵 <strong>满二叉树</strong> 里面节点的数目，节点编号从 <code>1</code> 到 <code>n</code> 。根节点编号为 <code>1</code> ，树中每个非叶子节点 <code>i</code> 都有两个孩子，分别是左孩子 <code>2 * i</code> 和右孩子 <code>2 * i + 1</code> 。</p>
+<p>树中每个节点都有一个值，用下标从 <strong>0</strong> 开始、长度为 <code>n</code> 的整数数组 <code>cost</code> 表示，其中 <code>cost[i]</code> 是第 <code>i + 1</code> 个节点的值。每次操作，你可以将树中 <strong>任意</strong> 节点的值 <strong>增加</strong> <code>1</code> 。你可以执行操作 <strong>任意</strong> 次。</p>
+<p>你的目标是让根到每一个 <strong>叶子结点</strong> 的路径值相等。请你返回 <strong>最少</strong> 需要执行增加操作多少次。</p>
+<p><strong>注意：</strong></p>
+<ul>
+<li><strong>满二叉树</strong> 指的是一棵树，它满足树中除了叶子节点外每个节点都恰好有 2 个子节点，且所有叶子节点距离根节点距离相同。</li>
+<li><strong>路径值</strong> 指的是路径上所有节点的值之和。</li>
+</ul>
+<p><strong>示例 1：</strong></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://assets.leetcode.com/uploads/2023/04/04/binaryytreeedrawio-4.png"
+        data-srcset="https://assets.leetcode.com/uploads/2023/04/04/binaryytreeedrawio-4.png, https://assets.leetcode.com/uploads/2023/04/04/binaryytreeedrawio-4.png 1.5x, https://assets.leetcode.com/uploads/2023/04/04/binaryytreeedrawio-4.png 2x"
+        data-sizes="auto"
+        alt="https://assets.leetcode.com/uploads/2023/04/04/binaryytreeedrawio-4.png"
+        title="img" /></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">输入：n = 7, cost = [1,5,2,2,3,3,1]
+</span></span><span class="line"><span class="cl">输出：6
+</span></span><span class="line"><span class="cl">解释：我们执行以下的增加操作：
+</span></span><span class="line"><span class="cl">- 将节点 4 的值增加一次。
+</span></span><span class="line"><span class="cl">- 将节点 3 的值增加三次。
+</span></span><span class="line"><span class="cl">- 将节点 7 的值增加两次。
+</span></span><span class="line"><span class="cl">从根到叶子的每一条路径值都为 9 。
+</span></span><span class="line"><span class="cl">总共增加次数为 1 + 3 + 2 = 6 。
+</span></span><span class="line"><span class="cl">这是最小的答案。
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>示例 2：</strong></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://assets.leetcode.com/uploads/2023/04/04/binaryytreee2drawio.png"
+        data-srcset="https://assets.leetcode.com/uploads/2023/04/04/binaryytreee2drawio.png, https://assets.leetcode.com/uploads/2023/04/04/binaryytreee2drawio.png 1.5x, https://assets.leetcode.com/uploads/2023/04/04/binaryytreee2drawio.png 2x"
+        data-sizes="auto"
+        alt="https://assets.leetcode.com/uploads/2023/04/04/binaryytreee2drawio.png"
+        title="img" /></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">输入：n = 3, cost = [5,3,3]
+</span></span><span class="line"><span class="cl">输出：0
+</span></span><span class="line"><span class="cl">解释：两条路径已经有相等的路径值，所以不需要执行任何增加操作。
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>提示：</strong></p>
+<ul>
+<li><code>3 &lt;= n &lt;= 105</code></li>
+<li><code>n + 1</code> 是 <code>2</code> 的幂</li>
+<li><code>cost.length == n</code></li>
+<li><code>1 &lt;= cost[i] &lt;= 104</code></li>
+</ul>
+</blockquote>
+<h2 id="题解">题解</h2>
+<p>我们首先考虑所有的叶结点。</p>
+<p>对于任一叶结点，它的值为 $x$，它的兄弟节点的值为 $y$。可以发现，对于树上的其余节点，它们要么同时是这两个叶节点的祖先，要么同时不是这两个叶节点的祖先。对这些节点进行一次操作，要么同时增加了根到这两个叶节点的路径值 $1$，要么没有任何效果。因此，要想使得根到这两个叶节点的路径值相等，我们只能增加 $x$ 和 $y$ 本身。</p>
+<p>由于我们希望操作次数最少，那么应该进行 $|x - y|$ 次操作，将较小的值增加至与较大的值相等。</p>
+<p>待考虑完所有叶节点之后，互为兄弟节点的叶节点的值两两相等（并且根到它们的路径值显然也相等）。如果我们还需要操作某个叶节点，那么为了使得路径值相等，它的兄弟节点同样也需要操作。此时就需要两次操作，但不如直接操作它们的双亲节点，可以省去一次操作。</p>
+<p>因此，所有的叶节点都无需进行操作。我们就可以将它们全部移除。为了使得路径值保持不变，我们可以将叶节点的值增加至它们的双亲节点。这样一来，所有的双亲节点都变成了新的叶节点，我们重复进行上述操作即可。当只剩一个节点（根节点）时，就可以得到最终的答案。</p>
+<p><strong>细节</strong></p>
+<p>由于本题中的树是以数组形式给定的，因此只需要对数组进行一次逆序遍历，就等价于对整个树进行了一次从叶节点开始的，自底向上的遍历。</p>
+<h2 id="代码">代码</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">minIncrements</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">cost</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">ans</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="n">ans</span> <span class="o">+=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">cost</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">-</span> <span class="n">cost</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">            <span class="c1"># 叶节点 i 和 i+1 的双亲节点下标为 i/2（整数除法）</span>
+</span></span><span class="line"><span class="cl">            <span class="n">cost</span><span class="p">[</span><span class="n">i</span> <span class="o">//</span> <span class="mi">2</span><span class="p">]</span> <span class="o">+=</span> <span class="nb">max</span><span class="p">(</span><span class="n">cost</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">cost</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">ans</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2024-02-28</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/%E5%8A%9B%E6%89%A3-2673-%E4%BD%BF%E4%BA%8C%E5%8F%89%E6%A0%91%E6%89%80%E6%9C%89%E8%B7%AF%E5%BE%84%E5%80%BC%E7%9B%B8%E7%AD%89%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BB%A3%E4%BB%B7/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2673-%E4%BD%BF%E4%BA%8C%E5%8F%89%E6%A0%91%E6%89%80%E6%9C%89%E8%B7%AF%E5%BE%84%E5%80%BC%E7%9B%B8%E7%AD%89%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BB%A3%E4%BB%B7/" data-title="力扣 2673 使二叉树所有路径值相等的最小代价" data-hashtags="贪心,树,数组,动态规划,二叉树"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2673-%E4%BD%BF%E4%BA%8C%E5%8F%89%E6%A0%91%E6%89%80%E6%9C%89%E8%B7%AF%E5%BE%84%E5%80%BC%E7%9B%B8%E7%AD%89%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BB%A3%E4%BB%B7/" data-hashtag="贪心"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2673-%E4%BD%BF%E4%BA%8C%E5%8F%89%E6%A0%91%E6%89%80%E6%9C%89%E8%B7%AF%E5%BE%84%E5%80%BC%E7%9B%B8%E7%AD%89%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BB%A3%E4%BB%B7/" data-title="力扣 2673 使二叉树所有路径值相等的最小代价"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2673-%E4%BD%BF%E4%BA%8C%E5%8F%89%E6%A0%91%E6%89%80%E6%9C%89%E8%B7%AF%E5%BE%84%E5%80%BC%E7%9B%B8%E7%AD%89%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BB%A3%E4%BB%B7/" data-title="力扣 2673 使二叉树所有路径值相等的最小代价"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2673-%E4%BD%BF%E4%BA%8C%E5%8F%89%E6%A0%91%E6%89%80%E6%9C%89%E8%B7%AF%E5%BE%84%E5%80%BC%E7%9B%B8%E7%AD%89%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BB%A3%E4%BB%B7/" data-title="力扣 2673 使二叉树所有路径值相等的最小代价"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E8%B4%AA%E5%BF%83/">贪心</a>,&nbsp;<a href="/tags/%E6%A0%91/">树</a>,&nbsp;<a href="/tags/%E6%95%B0%E7%BB%84/">数组</a>,&nbsp;<a href="/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/">动态规划</a>,&nbsp;<a href="/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/">二叉树</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/%E5%8A%9B%E6%89%A3-2867-%E7%BB%9F%E8%AE%A1%E6%A0%91%E4%B8%AD%E7%9A%84%E5%90%88%E6%B3%95%E8%B7%AF%E5%BE%84%E6%95%B0%E7%9B%AE/" class="prev" rel="prev" title="力扣 2867 统计树中的合法路径数目"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>力扣 2867 统计树中的合法路径数目</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.123.4">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2021 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">u4E0A</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"algoliaAppID":"EI82UR0QY1","algoliaIndex":"hugo-blog","algoliaSearchKey":"3578420497e956d2e03a304be8841e9d","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":50,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
