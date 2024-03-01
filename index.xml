@@ -3,9 +3,17 @@
         <title>u4E0A的博客</title>
         <link>https://u4E0A.github.io/</link>
         <description>这是u4E0A的博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 29 Feb 2024 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 01 Mar 2024 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://u4E0A.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>力扣 2369 检查数组是否存在有效划分</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2369-%E6%A3%80%E6%9F%A5%E6%95%B0%E7%BB%84%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E6%9C%89%E6%95%88%E5%88%92%E5%88%86/</link>
+    <pubDate>Fri, 01 Mar 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2369-%E6%A3%80%E6%9F%A5%E6%95%B0%E7%BB%84%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E6%9C%89%E6%95%88%E5%88%92%E5%88%86/</guid>
+    <description><![CDATA[检查数组是否存在有效划分 题目 给你一个下标从 0 开始的整数数组 nums ，你必须将数组划分为一个或多个 连续 子数组。 如果获得的这些子数组中每个都能满足下述]]></description>
+</item>
+<item>
     <title>力扣 2581 统计可能的树根数目</title>
     <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2581-%E7%BB%9F%E8%AE%A1%E5%8F%AF%E8%83%BD%E7%9A%84%E6%A0%91%E6%A0%B9%E6%95%B0%E7%9B%AE/</link>
     <pubDate>Thu, 29 Feb 2024 00:00:00 &#43;0000</pubDate>
@@ -76,14 +84,6 @@
     <author>力扣官方题解</author>
     <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-410-%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</guid>
     <description><![CDATA[分割数组的最大值 题目 给定一个非负整数数组 nums 和一个整数 k ，你需要将这个数组分成 k 个非空的连续子数组。 设计一个算法使得这 k 个子数组各自和的最大值]]></description>
-</item>
-<item>
-    <title>力扣 2809 使数组和小于等于x的最少时间</title>
-    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2809-%E4%BD%BF%E6%95%B0%E7%BB%84%E5%92%8C%E5%B0%8F%E4%BA%8E%E7%AD%89%E4%BA%8Ex%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</link>
-    <pubDate>Fri, 19 Jan 2024 00:00:00 &#43;0000</pubDate>
-    <author>力扣官方题解</author>
-    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2809-%E4%BD%BF%E6%95%B0%E7%BB%84%E5%92%8C%E5%B0%8F%E4%BA%8E%E7%AD%89%E4%BA%8Ex%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</guid>
-    <description><![CDATA[使数组和小于等于x的最少时间 题目 给你两个长度相等下标从 0 开始的整数数组 nums1 和 nums2 。每一秒，对于所有下标 0 &lt;= i &lt; nums1.length ，nums1[i] 的值都增加 nums2[i] 。]]></description>
 </item>
 </channel>
 </rss>
