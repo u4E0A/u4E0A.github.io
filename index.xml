@@ -3,9 +3,17 @@
         <title>u4E0A的博客</title>
         <link>https://u4E0A.github.io/</link>
         <description>这是u4E0A的博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 01 Mar 2024 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 09 Mar 2024 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://u4E0A.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>力扣 2386 找出数组的第K大和</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2386-%E6%89%BE%E5%87%BA%E6%95%B0%E7%BB%84%E7%9A%84%E7%AC%ACk%E5%A4%A7%E5%92%8C/</link>
+    <pubDate>Sat, 09 Mar 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2386-%E6%89%BE%E5%87%BA%E6%95%B0%E7%BB%84%E7%9A%84%E7%AC%ACk%E5%A4%A7%E5%92%8C/</guid>
+    <description><![CDATA[找出数组的第K大和 题目 给你一个整数数组 nums 和一个 正 整数 k 。你可以选择数组的任一 子序列 并且对其全部元素求和。 数组的 第 k 大和 定义为：可以获得的第 k]]></description>
+</item>
+<item>
     <title>力扣 2369 检查数组是否存在有效划分</title>
     <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2369-%E6%A3%80%E6%9F%A5%E6%95%B0%E7%BB%84%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E6%9C%89%E6%95%88%E5%88%92%E5%88%86/</link>
     <pubDate>Fri, 01 Mar 2024 00:00:00 &#43;0000</pubDate>
@@ -76,14 +84,6 @@
     <author>力扣官方题解</author>
     <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-514-%E8%87%AA%E7%94%B1%E4%B9%8B%E8%B7%AF/</guid>
     <description><![CDATA[自由之路 题目 电子游戏“辐射4”中，任务 “通向自由” 要求玩家到达名为 “Freedom Trail Ring” 的金属表盘，并使用表盘拼写特定关键词才能开门。]]></description>
-</item>
-<item>
-    <title>力扣 410 分割数组的最大值</title>
-    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-410-%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</link>
-    <pubDate>Sun, 21 Jan 2024 00:00:00 &#43;0000</pubDate>
-    <author>力扣官方题解</author>
-    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-410-%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC/</guid>
-    <description><![CDATA[分割数组的最大值 题目 给定一个非负整数数组 nums 和一个整数 k ，你需要将这个数组分成 k 个非空的连续子数组。 设计一个算法使得这 k 个子数组各自和的最大值]]></description>
 </item>
 </channel>
 </rss>

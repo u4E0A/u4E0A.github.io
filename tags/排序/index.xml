@@ -3,7 +3,15 @@
         <title>排序 - Tag - u4E0A的博客</title>
         <link>https://u4E0A.github.io/tags/%E6%8E%92%E5%BA%8F/</link>
         <description>排序 - Tag - u4E0A的博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 19 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/%E6%8E%92%E5%BA%8F/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 09 Mar 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/%E6%8E%92%E5%BA%8F/" rel="self" type="application/rss+xml" /><item>
+    <title>力扣 2386 找出数组的第K大和</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2386-%E6%89%BE%E5%87%BA%E6%95%B0%E7%BB%84%E7%9A%84%E7%AC%ACk%E5%A4%A7%E5%92%8C/</link>
+    <pubDate>Sat, 09 Mar 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2386-%E6%89%BE%E5%87%BA%E6%95%B0%E7%BB%84%E7%9A%84%E7%AC%ACk%E5%A4%A7%E5%92%8C/</guid>
+    <description><![CDATA[找出数组的第K大和 题目 给你一个整数数组 nums 和一个 正 整数 k 。你可以选择数组的任一 子序列 并且对其全部元素求和。 数组的 第 k 大和 定义为：可以获得的第 k]]></description>
+</item>
+<item>
     <title>力扣 2809 使数组和小于等于x的最少时间</title>
     <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2809-%E4%BD%BF%E6%95%B0%E7%BB%84%E5%92%8C%E5%B0%8F%E4%BA%8E%E7%AD%89%E4%BA%8Ex%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</link>
     <pubDate>Fri, 19 Jan 2024 00:00:00 &#43;0000</pubDate>
