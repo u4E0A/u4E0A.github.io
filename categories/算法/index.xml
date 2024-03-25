@@ -3,7 +3,15 @@
         <title>算法 - Category - u4E0A的博客</title>
         <link>https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/</link>
         <description>算法 - Category - u4E0A的博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 19 Mar 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 25 Mar 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+    <title>力扣 518 零钱兑换II</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-518-%E9%9B%B6%E9%92%B1%E5%85%91%E6%8D%A2ii/</link>
+    <pubDate>Mon, 25 Mar 2024 00:00:00 &#43;0000</pubDate>
+    <author>u4E0A</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-518-%E9%9B%B6%E9%92%B1%E5%85%91%E6%8D%A2ii/</guid>
+    <description><![CDATA[零钱兑换II 题目 给你一个整数数组 coins 表示不同面额的硬币，另给一个整数 amount 表示总金额。 请你计算并返回可以凑成总金额的硬币组合数。如果任何硬币组合都]]></description>
+</item>
+<item>
     <title>力扣 1793 好子数组的最大分数</title>
     <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1793-%E5%A5%BD%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%86%E6%95%B0/</link>
     <pubDate>Tue, 19 Mar 2024 00:00:00 &#43;0000</pubDate>
@@ -74,14 +82,6 @@
     <author>力扣官方题解</author>
     <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1690-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-vii/</guid>
     <description><![CDATA[石子游戏 VII 题目 石子游戏中，爱丽丝和鲍勃轮流进行自己的回合，爱丽丝先开始 。 有 n 块石子排成一排。每个玩家的回合中，可以从行中 移除 最左边的石头或最]]></description>
-</item>
-<item>
-    <title>力扣 LCP 24 数字游戏</title>
-    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-lcp-24-%E6%95%B0%E5%AD%97%E6%B8%B8%E6%88%8F/</link>
-    <pubDate>Thu, 01 Feb 2024 00:00:00 &#43;0000</pubDate>
-    <author>力扣官方题解</author>
-    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-lcp-24-%E6%95%B0%E5%AD%97%E6%B8%B8%E6%88%8F/</guid>
-    <description><![CDATA[数字游戏 题目 小扣在秋日市集入口处发现了一个数字游戏。主办方共有 N 个计数器，计数器编号为 0 ~ N-1。每个计数器上分别显示了一个数字，小扣按计数]]></description>
 </item>
 </channel>
 </rss>
