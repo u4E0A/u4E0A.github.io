@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>排序 - Category - u4E0A的博客</title>
+        <link>https://u4E0A.github.io/categories/%E6%8E%92%E5%BA%8F/</link>
+        <description>排序 - Category - u4E0A的博客</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 30 Mar 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/categories/%E6%8E%92%E5%BA%8F/" rel="self" type="application/rss+xml" /><item>
+    <title>力扣 2952 需要添加的硬币的最小数量</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2952-%E9%9C%80%E8%A6%81%E6%B7%BB%E5%8A%A0%E7%9A%84%E7%A1%AC%E5%B8%81%E7%9A%84%E6%9C%80%E5%B0%8F%E6%95%B0%E9%87%8F/</link>
+    <pubDate>Sat, 30 Mar 2024 00:00:00 &#43;0000</pubDate>
+    <author>灵茶山艾府</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2952-%E9%9C%80%E8%A6%81%E6%B7%BB%E5%8A%A0%E7%9A%84%E7%A1%AC%E5%B8%81%E7%9A%84%E6%9C%80%E5%B0%8F%E6%95%B0%E9%87%8F/</guid>
+    <description><![CDATA[需要添加的硬币的最小数量 题目 给你一个下标从 0 开始的整数数组 coins，表示可用的硬币的面值，以及一个整数 target 。 如果存在某个 coins 的子序列总和为 x，]]></description>
+</item>
+</channel>
+</rss>
