@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>力扣 1483 树节点的第K个祖先 - u4E0A的博客</title><meta name="Description" content="这是u4E0A的博客"><meta property="og:title" content="力扣 1483 树节点的第K个祖先" />
+<meta property="og:description" content="树节点的第K个祖先 题目 给你一棵树，树上有 n 个节点，按从 0 到 n-1 编号。树以父节点数组的形式给出，其中 parent[i] 是节点 i 的父节点。树的根节点是编号为 0 的节" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1483-%E6%A0%91%E8%8A%82%E7%82%B9%E7%9A%84%E7%AC%ACk%E4%B8%AA%E7%A5%96%E5%85%88/" /><meta property="og:image" content="https://u4E0A.github.io/logo.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-04-07T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-04-07T00:00:00+00:00" /><meta property="og:site_name" content="u4E0A的博客" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://u4E0A.github.io/logo.png" /><meta name="twitter:title" content="力扣 1483 树节点的第K个祖先"/>
+<meta name="twitter:description" content="树节点的第K个祖先 题目 给你一棵树，树上有 n 个节点，按从 0 到 n-1 编号。树以父节点数组的形式给出，其中 parent[i] 是节点 i 的父节点。树的根节点是编号为 0 的节"/>
+<meta name="application-name" content="u4E0A的博客">
+<meta name="apple-mobile-web-app-title" content="u4E0A的博客"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1483-%E6%A0%91%E8%8A%82%E7%82%B9%E7%9A%84%E7%AC%ACk%E4%B8%AA%E7%A5%96%E5%85%88/" /><link rel="prev" href="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2952-%E9%9C%80%E8%A6%81%E6%B7%BB%E5%8A%A0%E7%9A%84%E7%A1%AC%E5%B8%81%E7%9A%84%E6%9C%80%E5%B0%8F%E6%95%B0%E9%87%8F/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "力扣 1483 树节点的第K个祖先",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/u4E0A.github.io\/%E5%8A%9B%E6%89%A3-1483-%E6%A0%91%E8%8A%82%E7%82%B9%E7%9A%84%E7%AC%ACk%E4%B8%AA%E7%A5%96%E5%85%88\/"
+        },"genre": "posts","keywords": "树, 深度优先搜索, 广度优先搜索, 设计, 二分查找, 动态规划","wordcount":  758 ,
+        "url": "https:\/\/u4E0A.github.io\/%E5%8A%9B%E6%89%A3-1483-%E6%A0%91%E8%8A%82%E7%82%B9%E7%9A%84%E7%AC%ACk%E4%B8%AA%E7%A5%96%E5%85%88\/","datePublished": "2024-04-07T00:00:00+00:00","dateModified": "2024-04-07T00:00:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "力扣官方题解"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="u4E0A的博客"><span class="header-title-pre"><i class='far fa-grin-stars'></i></span>u4E0A的博客</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="u4E0A的博客"><span class="header-title-pre"><i class='far fa-grin-stars'></i></span>u4E0A的博客</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">力扣 1483 树节点的第K个祖先</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://leetcode.cn/problems/kth-ancestor-of-a-tree-node/solutions/2301511/shu-jie-dian-de-di-k-ge-zu-xian-by-leetc-hdxd/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>力扣官方题解</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%E7%AE%97%E6%B3%95/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>算法</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-04-07">2024-04-07</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;758 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="true">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#题目">题目</a></li>
+    <li><a href="#题解">题解</a></li>
+    <li><a href="#代码">代码</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="树节点的第k个祖先">树节点的第K个祖先</h1>
+<h2 id="题目">题目</h2>
+<blockquote>
+<p>给你一棵树，树上有 <code>n</code> 个节点，按从 <code>0</code> 到 <code>n-1</code> 编号。树以父节点数组的形式给出，其中 <code>parent[i]</code> 是节点 <code>i</code> 的父节点。树的根节点是编号为 <code>0</code> 的节点。</p>
+<p>树节点的第 <em><code>k</code></em> 个祖先节点是从该节点到根节点路径上的第 <code>k</code> 个节点。</p>
+<p>实现 <code>TreeAncestor</code> 类：</p>
+<ul>
+<li><code>TreeAncestor（int n， int[] parent）</code> 对树和父数组中的节点数初始化对象。</li>
+<li><code>getKthAncestor``(int node, int k)</code> 返回节点 <code>node</code> 的第 <code>k</code> 个祖先节点。如果不存在这样的祖先节点，返回 <code>-1</code> 。</li>
+</ul>
+<p><strong>示例 1：</strong></p>
+<p><strong><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/06/14/1528_ex1.png"
+        data-srcset="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/06/14/1528_ex1.png, https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/06/14/1528_ex1.png 1.5x, https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/06/14/1528_ex1.png 2x"
+        data-sizes="auto"
+        alt="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/06/14/1528_ex1.png"
+        title="img" /></strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">输入：
+</span></span><span class="line"><span class="cl">[&#34;TreeAncestor&#34;,&#34;getKthAncestor&#34;,&#34;getKthAncestor&#34;,&#34;getKthAncestor&#34;]
+</span></span><span class="line"><span class="cl">[[7,[-1,0,0,1,1,2,2]],[3,1],[5,2],[6,3]]
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">输出：
+</span></span><span class="line"><span class="cl">[null,1,0,-1]
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">解释：
+</span></span><span class="line"><span class="cl">TreeAncestor treeAncestor = new TreeAncestor(7, [-1, 0, 0, 1, 1, 2, 2]);
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">treeAncestor.getKthAncestor(3, 1);  // 返回 1 ，它是 3 的父节点
+</span></span><span class="line"><span class="cl">treeAncestor.getKthAncestor(5, 2);  // 返回 0 ，它是 5 的祖父节点
+</span></span><span class="line"><span class="cl">treeAncestor.getKthAncestor(6, 3);  // 返回 -1 因为不存在满足要求的祖先节点
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>提示：</strong></p>
+<ul>
+<li><code>1 &lt;= k &lt;= n &lt;= 5 * 104</code></li>
+<li><code>parent[0] == -1</code> 表示编号为 <code>0</code> 的节点是根节点。</li>
+<li>对于所有的 <code>0 &lt; i &lt; n</code> ，<code>0 &lt;= parent[i] &lt; n</code> 总成立</li>
+<li><code>0 &lt;= node &lt; n</code></li>
+<li>至多查询 <code>5 * 104</code> 次</li>
+</ul>
+</blockquote>
+<h2 id="题解">题解</h2>
+<p>倍增的思路类似于动态规划，定义 $\textit{ancestors}[i][j]$ 表示节点 $i$ 的第 $2^j$ 个祖先。此题中，树最多有 $\texttt{50000}$ 个节点，因此 $\textit{ancestors}$ 的第二维度的最大值可以设为 $16$。根据定义，$\textit{ancestors}[i][0] = \textit{parent}[i]$。状态转移方程是 $\textit{ancestors}[i][j] = \textit{ancestors}[\textit{ancestors}[i][j - 1]][j - 1]$，即当前节点的第 $2^j$ 个祖先，是他的第 $2^{j-1}$ 个祖先的第 $2^{j-1}$ 个祖先。当第 $2^j$ 个祖先不存在时，记为 $-1$。</p>
+<p>查询时，需要将 $k$ 的二进制表示从最低位到最高位依次进行判断，如果第 $j$ 位为 $1$，则节点 $\textit{node}$ 需要进行转移到 $\textit{ancestors}[\textit{node}][j]$，表示 $\textit{node}$ 向祖先方向移动了 $2^j$ 次。直至遍历完 $k$ 所有位或者 $\textit{node}$ 变为 $-1$。</p>
+<h2 id="代码">代码</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">TreeAncestor</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">parent</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">int</span><span class="p">]):</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">log</span> <span class="o">=</span> <span class="mi">16</span>
+</span></span><span class="line"><span class="cl">        <span class="bp">self</span><span class="o">.</span><span class="n">ancestors</span> <span class="o">=</span> <span class="p">[[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">log</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">)]</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="bp">self</span><span class="o">.</span><span class="n">ancestors</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">parent</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">log</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">ancestors</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                    <span class="bp">self</span><span class="o">.</span><span class="n">ancestors</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">ancestors</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">ancestors</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]][</span><span class="n">j</span> <span class="o">-</span> <span class="mi">1</span><span class="p">]</span>   
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">def</span> <span class="nf">getKthAncestor</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">node</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">k</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">log</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="n">k</span><span class="o">&gt;&gt;</span><span class="n">j</span><span class="p">)</span> <span class="o">&amp;</span> <span class="mi">1</span><span class="p">:</span> 
+</span></span><span class="line"><span class="cl">                <span class="n">node</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">ancestors</span><span class="p">[</span><span class="n">node</span><span class="p">][</span><span class="n">j</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">                <span class="k">if</span> <span class="n">node</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                    <span class="k">return</span> <span class="o">-</span><span class="mi">1</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">node</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Your TreeAncestor object will be instantiated and called as such:</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># obj = TreeAncestor(n, parent)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># param_1 = obj.getKthAncestor(node,k)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2024-04-07</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/%E5%8A%9B%E6%89%A3-1483-%E6%A0%91%E8%8A%82%E7%82%B9%E7%9A%84%E7%AC%ACk%E4%B8%AA%E7%A5%96%E5%85%88/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1483-%E6%A0%91%E8%8A%82%E7%82%B9%E7%9A%84%E7%AC%ACk%E4%B8%AA%E7%A5%96%E5%85%88/" data-title="力扣 1483 树节点的第K个祖先" data-hashtags="树,深度优先搜索,广度优先搜索,设计,二分查找,动态规划"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1483-%E6%A0%91%E8%8A%82%E7%82%B9%E7%9A%84%E7%AC%ACk%E4%B8%AA%E7%A5%96%E5%85%88/" data-hashtag="树"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1483-%E6%A0%91%E8%8A%82%E7%82%B9%E7%9A%84%E7%AC%ACk%E4%B8%AA%E7%A5%96%E5%85%88/" data-title="力扣 1483 树节点的第K个祖先"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1483-%E6%A0%91%E8%8A%82%E7%82%B9%E7%9A%84%E7%AC%ACk%E4%B8%AA%E7%A5%96%E5%85%88/" data-title="力扣 1483 树节点的第K个祖先"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1483-%E6%A0%91%E8%8A%82%E7%82%B9%E7%9A%84%E7%AC%ACk%E4%B8%AA%E7%A5%96%E5%85%88/" data-title="力扣 1483 树节点的第K个祖先"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/%E6%A0%91/">树</a>,&nbsp;<a href="/tags/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/">深度优先搜索</a>,&nbsp;<a href="/tags/%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/">广度优先搜索</a>,&nbsp;<a href="/tags/%E8%AE%BE%E8%AE%A1/">设计</a>,&nbsp;<a href="/tags/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/">二分查找</a>,&nbsp;<a href="/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/">动态规划</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/%E5%8A%9B%E6%89%A3-2952-%E9%9C%80%E8%A6%81%E6%B7%BB%E5%8A%A0%E7%9A%84%E7%A1%AC%E5%B8%81%E7%9A%84%E6%9C%80%E5%B0%8F%E6%95%B0%E9%87%8F/" class="prev" rel="prev" title="力扣 2952 需要添加的硬币的最小数量"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>力扣 2952 需要添加的硬币的最小数量</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.124.1">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2021 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">u4E0A</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"algoliaAppID":"EI82UR0QY1","algoliaIndex":"hugo-blog","algoliaSearchKey":"3578420497e956d2e03a304be8841e9d","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":50,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

@@ -3,7 +3,15 @@
         <title>深度优先搜索 - Tag - u4E0A的博客</title>
         <link>https://u4E0A.github.io/tags/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/</link>
         <description>深度优先搜索 - Tag - u4E0A的博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 29 Feb 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 07 Apr 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2/" rel="self" type="application/rss+xml" /><item>
+    <title>力扣 1483 树节点的第K个祖先</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1483-%E6%A0%91%E8%8A%82%E7%82%B9%E7%9A%84%E7%AC%ACk%E4%B8%AA%E7%A5%96%E5%85%88/</link>
+    <pubDate>Sun, 07 Apr 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1483-%E6%A0%91%E8%8A%82%E7%82%B9%E7%9A%84%E7%AC%ACk%E4%B8%AA%E7%A5%96%E5%85%88/</guid>
+    <description><![CDATA[树节点的第K个祖先 题目 给你一棵树，树上有 n 个节点，按从 0 到 n-1 编号。树以父节点数组的形式给出，其中 parent[i] 是节点 i 的父节点。树的根节点是编号为 0 的节]]></description>
+</item>
+<item>
     <title>力扣 2581 统计可能的树根数目</title>
     <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2581-%E7%BB%9F%E8%AE%A1%E5%8F%AF%E8%83%BD%E7%9A%84%E6%A0%91%E6%A0%B9%E6%95%B0%E7%9B%AE/</link>
     <pubDate>Thu, 29 Feb 2024 00:00:00 &#43;0000</pubDate>

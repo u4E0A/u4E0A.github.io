@@ -3,7 +3,15 @@
         <title>算法 - Category - u4E0A的博客</title>
         <link>https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/</link>
         <description>算法 - Category - u4E0A的博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 25 Mar 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 07 Apr 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+    <title>力扣 1483 树节点的第K个祖先</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1483-%E6%A0%91%E8%8A%82%E7%82%B9%E7%9A%84%E7%AC%ACk%E4%B8%AA%E7%A5%96%E5%85%88/</link>
+    <pubDate>Sun, 07 Apr 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1483-%E6%A0%91%E8%8A%82%E7%82%B9%E7%9A%84%E7%AC%ACk%E4%B8%AA%E7%A5%96%E5%85%88/</guid>
+    <description><![CDATA[树节点的第K个祖先 题目 给你一棵树，树上有 n 个节点，按从 0 到 n-1 编号。树以父节点数组的形式给出，其中 parent[i] 是节点 i 的父节点。树的根节点是编号为 0 的节]]></description>
+</item>
+<item>
     <title>力扣 518 零钱兑换II</title>
     <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-518-%E9%9B%B6%E9%92%B1%E5%85%91%E6%8D%A2ii/</link>
     <pubDate>Mon, 25 Mar 2024 00:00:00 &#43;0000</pubDate>
@@ -74,14 +82,6 @@
     <author>力扣官方题解</author>
     <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1696-%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F-vi/</guid>
     <description><![CDATA[跳跃游戏 VI 题目 给你一个下标从 0 开始的整数数组 nums 和一个整数 k 。 一开始你在下标 0 处。每一步，你最多可以往前跳 k 步，但你不能跳出数组的边界。也就是]]></description>
-</item>
-<item>
-    <title>力扣 1690 石子游戏 VII</title>
-    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1690-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-vii/</link>
-    <pubDate>Sat, 03 Feb 2024 00:00:00 &#43;0000</pubDate>
-    <author>力扣官方题解</author>
-    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1690-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-vii/</guid>
-    <description><![CDATA[石子游戏 VII 题目 石子游戏中，爱丽丝和鲍勃轮流进行自己的回合，爱丽丝先开始 。 有 n 块石子排成一排。每个玩家的回合中，可以从行中 移除 最左边的石头或最]]></description>
 </item>
 </channel>
 </rss>
