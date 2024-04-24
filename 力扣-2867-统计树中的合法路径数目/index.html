@@ -4,15 +4,24 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>力扣 2867 统计树中的合法路径数目 - u4E0A的博客</title><meta name="Description" content="这是u4E0A的博客"><meta property="og:title" content="力扣 2867 统计树中的合法路径数目" />
-<meta property="og:description" content="统计树中的合法路径数目 题目 给你一棵 n 个节点的无向树，节点编号为 1 到 n 。给你一个整数 n 和一个长度为 n - 1 的二维整数数组 edges ，其中 edges[i] = [ui, vi] 表示节点" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2867-%E7%BB%9F%E8%AE%A1%E6%A0%91%E4%B8%AD%E7%9A%84%E5%90%88%E6%B3%95%E8%B7%AF%E5%BE%84%E6%95%B0%E7%9B%AE/" /><meta property="og:image" content="https://u4E0A.github.io/logo.png" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-02-27T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-02-27T00:00:00+00:00" /><meta property="og:site_name" content="u4E0A的博客" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://u4E0A.github.io/logo.png" /><meta name="twitter:title" content="力扣 2867 统计树中的合法路径数目"/>
-<meta name="twitter:description" content="统计树中的合法路径数目 题目 给你一棵 n 个节点的无向树，节点编号为 1 到 n 。给你一个整数 n 和一个长度为 n - 1 的二维整数数组 edges ，其中 edges[i] = [ui, vi] 表示节点"/>
+        <title>力扣 2867 统计树中的合法路径数目 - u4E0A的博客</title><meta name="Description" content="这是u4E0A的博客"><meta property="og:url" content="https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2867-%E7%BB%9F%E8%AE%A1%E6%A0%91%E4%B8%AD%E7%9A%84%E5%90%88%E6%B3%95%E8%B7%AF%E5%BE%84%E6%95%B0%E7%9B%AE/">
+  <meta property="og:site_name" content="u4E0A的博客">
+  <meta property="og:title" content="力扣 2867 统计树中的合法路径数目">
+  <meta property="og:description" content="统计树中的合法路径数目 题目 给你一棵 n 个节点的无向树，节点编号为 1 到 n 。给你一个整数 n 和一个长度为 n - 1 的二维整数数组 edges ，其中 edges[i] = [ui, vi] 表示节点">
+  <meta property="og:locale" content="zh-CN">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-02-27T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-02-27T00:00:00+00:00">
+    <meta property="article:tag" content="树">
+    <meta property="article:tag" content="深度优先搜索">
+    <meta property="article:tag" content="数学">
+    <meta property="article:tag" content="动态规划">
+    <meta property="article:tag" content="数论">
+    <meta property="og:image" content="https://u4E0A.github.io/logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://u4E0A.github.io/logo.png"><meta name="twitter:title" content="力扣 2867 统计树中的合法路径数目">
+<meta name="twitter:description" content="统计树中的合法路径数目 题目 给你一棵 n 个节点的无向树，节点编号为 1 到 n 。给你一个整数 n 和一个长度为 n - 1 的二维整数数组 edges ，其中 edges[i] = [ui, vi] 表示节点">
 <meta name="application-name" content="u4E0A的博客">
 <meta name="apple-mobile-web-app-title" content="u4E0A的博客"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -320,7 +329,7 @@
 </div>
 </article></div>
             </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.124.1">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.125.3">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
                 </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2021 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">u4E0A</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span></div>
         </div>
     </footer></div>

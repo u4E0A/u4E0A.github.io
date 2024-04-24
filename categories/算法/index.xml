@@ -3,7 +3,23 @@
         <title>算法 - Category - u4E0A的博客</title>
         <link>https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/</link>
         <description>算法 - Category - u4E0A的博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 07 Apr 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 24 Apr 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+    <title>力扣 2385 感染二叉树需要的总时间</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2385-%E6%84%9F%E6%9F%93%E4%BA%8C%E5%8F%89%E6%A0%91%E9%9C%80%E8%A6%81%E7%9A%84%E6%80%BB%E6%97%B6%E9%97%B4/</link>
+    <pubDate>Wed, 24 Apr 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2385-%E6%84%9F%E6%9F%93%E4%BA%8C%E5%8F%89%E6%A0%91%E9%9C%80%E8%A6%81%E7%9A%84%E6%80%BB%E6%97%B6%E9%97%B4/</guid>
+    <description><![CDATA[感染二叉树需要的总时间 题目 给你一棵二叉树的根节点 root ，二叉树中节点的值 互不相同 。另给你一个整数 start 。在第 0 分钟，感染 将会从值为 start 的节点开始爆发。]]></description>
+</item>
+<item>
+    <title>力扣 2009 使数组连续的最少操作数</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2009-%E4%BD%BF%E6%95%B0%E7%BB%84%E8%BF%9E%E7%BB%AD%E7%9A%84%E6%9C%80%E5%B0%91%E6%93%8D%E4%BD%9C%E6%95%B0/</link>
+    <pubDate>Mon, 08 Apr 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2009-%E4%BD%BF%E6%95%B0%E7%BB%84%E8%BF%9E%E7%BB%AD%E7%9A%84%E6%9C%80%E5%B0%91%E6%93%8D%E4%BD%9C%E6%95%B0/</guid>
+    <description><![CDATA[使数组连续的最少操作数 题目 给你一个整数数组 nums 。每一次操作中，你可以将 nums 中 任意 一个元素替换成 任意 整数。 如果 nums 满足以下条件，那么它是 连续的 ： nums 中]]></description>
+</item>
+<item>
     <title>力扣 1483 树节点的第K个祖先</title>
     <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1483-%E6%A0%91%E8%8A%82%E7%82%B9%E7%9A%84%E7%AC%ACk%E4%B8%AA%E7%A5%96%E5%85%88/</link>
     <pubDate>Sun, 07 Apr 2024 00:00:00 &#43;0000</pubDate>
@@ -66,22 +82,6 @@
     <author>力扣官方题解</author>
     <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2867-%E7%BB%9F%E8%AE%A1%E6%A0%91%E4%B8%AD%E7%9A%84%E5%90%88%E6%B3%95%E8%B7%AF%E5%BE%84%E6%95%B0%E7%9B%AE/</guid>
     <description><![CDATA[统计树中的合法路径数目 题目 给你一棵 n 个节点的无向树，节点编号为 1 到 n 。给你一个整数 n 和一个长度为 n - 1 的二维整数数组 edges ，其中 edges[i] = [ui, vi] 表示节点]]></description>
-</item>
-<item>
-    <title>力扣 889 根据前序和后序遍历构造二叉树</title>
-    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-889-%E6%A0%B9%E6%8D%AE%E5%89%8D%E5%BA%8F%E5%92%8C%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91/</link>
-    <pubDate>Thu, 22 Feb 2024 00:00:00 &#43;0000</pubDate>
-    <author>u4E0A</author>
-    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-889-%E6%A0%B9%E6%8D%AE%E5%89%8D%E5%BA%8F%E5%92%8C%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91/</guid>
-    <description><![CDATA[根据前序和后序遍历构造二叉树 题目 给定两个整数数组，preorder 和 postorder ，其中 preorder 是一个具有 无重复 值的二叉树的前序遍历，postorder 是同一]]></description>
-</item>
-<item>
-    <title>力扣 1696 跳跃游戏 VI</title>
-    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1696-%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F-vi/</link>
-    <pubDate>Mon, 05 Feb 2024 00:00:00 &#43;0000</pubDate>
-    <author>力扣官方题解</author>
-    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1696-%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F-vi/</guid>
-    <description><![CDATA[跳跃游戏 VI 题目 给你一个下标从 0 开始的整数数组 nums 和一个整数 k 。 一开始你在下标 0 处。每一步，你最多可以往前跳 k 步，但你不能跳出数组的边界。也就是]]></description>
 </item>
 </channel>
 </rss>
