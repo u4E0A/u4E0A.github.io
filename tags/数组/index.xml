@@ -3,7 +3,23 @@
         <title>数组 - Tag - u4E0A的博客</title>
         <link>https://u4E0A.github.io/tags/%E6%95%B0%E7%BB%84/</link>
         <description>数组 - Tag - u4E0A的博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 08 Apr 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/%E6%95%B0%E7%BB%84/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 16 May 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/tags/%E6%95%B0%E7%BB%84/" rel="self" type="application/rss+xml" /><item>
+    <title>力扣 1953 你可以工作的最大周数</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1953-%E4%BD%A0%E5%8F%AF%E4%BB%A5%E5%B7%A5%E4%BD%9C%E7%9A%84%E6%9C%80%E5%A4%A7%E5%91%A8%E6%95%B0/</link>
+    <pubDate>Thu, 16 May 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1953-%E4%BD%A0%E5%8F%AF%E4%BB%A5%E5%B7%A5%E4%BD%9C%E7%9A%84%E6%9C%80%E5%A4%A7%E5%91%A8%E6%95%B0/</guid>
+    <description><![CDATA[你可以工作的最大周数 题目 给你 n 个项目，编号从 0 到 n - 1 。同时给你一个整数数组 milestones ，其中每个 milestones[i] 表示第 i 个项目中的阶段任务数量。 你可以按下面两个规]]></description>
+</item>
+<item>
+    <title>力扣 2589 完成所有任务的最少时间</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2589-%E5%AE%8C%E6%88%90%E6%89%80%E6%9C%89%E4%BB%BB%E5%8A%A1%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</link>
+    <pubDate>Wed, 15 May 2024 00:00:00 &#43;0000</pubDate>
+    <author>灵茶山艾府</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2589-%E5%AE%8C%E6%88%90%E6%89%80%E6%9C%89%E4%BB%BB%E5%8A%A1%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</guid>
+    <description><![CDATA[完成所有任务的最少时间 题目 你有一台电脑，它可以 同时 运行无数个任务。给你一个二维整数数组 tasks ，其中 tasks[i] = [starti, endi, durationi] 表示第 i 个任务需要在 闭区间 时间段 [starti, endi]]]></description>
+</item>
+<item>
     <title>力扣 2009 使数组连续的最少操作数</title>
     <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2009-%E4%BD%BF%E6%95%B0%E7%BB%84%E8%BF%9E%E7%BB%AD%E7%9A%84%E6%9C%80%E5%B0%91%E6%93%8D%E4%BD%9C%E6%95%B0/</link>
     <pubDate>Mon, 08 Apr 2024 00:00:00 &#43;0000</pubDate>
@@ -66,22 +82,6 @@
     <author>力扣官方题解</author>
     <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1696-%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F-vi/</guid>
     <description><![CDATA[跳跃游戏 VI 题目 给你一个下标从 0 开始的整数数组 nums 和一个整数 k 。 一开始你在下标 0 处。每一步，你最多可以往前跳 k 步，但你不能跳出数组的边界。也就是]]></description>
-</item>
-<item>
-    <title>力扣 1690 石子游戏 VII</title>
-    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1690-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-vii/</link>
-    <pubDate>Sat, 03 Feb 2024 00:00:00 &#43;0000</pubDate>
-    <author>力扣官方题解</author>
-    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1690-%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F-vii/</guid>
-    <description><![CDATA[石子游戏 VII 题目 石子游戏中，爱丽丝和鲍勃轮流进行自己的回合，爱丽丝先开始 。 有 n 块石子排成一排。每个玩家的回合中，可以从行中 移除 最左边的石头或最]]></description>
-</item>
-<item>
-    <title>力扣 LCP 24 数字游戏</title>
-    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-lcp-24-%E6%95%B0%E5%AD%97%E6%B8%B8%E6%88%8F/</link>
-    <pubDate>Thu, 01 Feb 2024 00:00:00 &#43;0000</pubDate>
-    <author>力扣官方题解</author>
-    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-lcp-24-%E6%95%B0%E5%AD%97%E6%B8%B8%E6%88%8F/</guid>
-    <description><![CDATA[数字游戏 题目 小扣在秋日市集入口处发现了一个数字游戏。主办方共有 N 个计数器，计数器编号为 0 ~ N-1。每个计数器上分别显示了一个数字，小扣按计数]]></description>
 </item>
 </channel>
 </rss>

@@ -3,7 +3,23 @@
         <title>算法 - Category - u4E0A的博客</title>
         <link>https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/</link>
         <description>算法 - Category - u4E0A的博客</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 24 Apr 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 16 May 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://u4E0A.github.io/categories/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+    <title>力扣 1953 你可以工作的最大周数</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1953-%E4%BD%A0%E5%8F%AF%E4%BB%A5%E5%B7%A5%E4%BD%9C%E7%9A%84%E6%9C%80%E5%A4%A7%E5%91%A8%E6%95%B0/</link>
+    <pubDate>Thu, 16 May 2024 00:00:00 &#43;0000</pubDate>
+    <author>力扣官方题解</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-1953-%E4%BD%A0%E5%8F%AF%E4%BB%A5%E5%B7%A5%E4%BD%9C%E7%9A%84%E6%9C%80%E5%A4%A7%E5%91%A8%E6%95%B0/</guid>
+    <description><![CDATA[你可以工作的最大周数 题目 给你 n 个项目，编号从 0 到 n - 1 。同时给你一个整数数组 milestones ，其中每个 milestones[i] 表示第 i 个项目中的阶段任务数量。 你可以按下面两个规]]></description>
+</item>
+<item>
+    <title>力扣 2589 完成所有任务的最少时间</title>
+    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2589-%E5%AE%8C%E6%88%90%E6%89%80%E6%9C%89%E4%BB%BB%E5%8A%A1%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</link>
+    <pubDate>Wed, 15 May 2024 00:00:00 &#43;0000</pubDate>
+    <author>灵茶山艾府</author>
+    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2589-%E5%AE%8C%E6%88%90%E6%89%80%E6%9C%89%E4%BB%BB%E5%8A%A1%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4/</guid>
+    <description><![CDATA[完成所有任务的最少时间 题目 你有一台电脑，它可以 同时 运行无数个任务。给你一个二维整数数组 tasks ，其中 tasks[i] = [starti, endi, durationi] 表示第 i 个任务需要在 闭区间 时间段 [starti, endi]]]></description>
+</item>
+<item>
     <title>力扣 2385 感染二叉树需要的总时间</title>
     <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2385-%E6%84%9F%E6%9F%93%E4%BA%8C%E5%8F%89%E6%A0%91%E9%9C%80%E8%A6%81%E7%9A%84%E6%80%BB%E6%97%B6%E9%97%B4/</link>
     <pubDate>Wed, 24 Apr 2024 00:00:00 &#43;0000</pubDate>
@@ -66,22 +82,6 @@
     <author>力扣官方题解</author>
     <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2581-%E7%BB%9F%E8%AE%A1%E5%8F%AF%E8%83%BD%E7%9A%84%E6%A0%91%E6%A0%B9%E6%95%B0%E7%9B%AE/</guid>
     <description><![CDATA[统计可能的树根数目 题目 Alice 有一棵 n 个节点的树，节点编号为 0 到 n - 1 。树用一个长度为 n - 1 的二维整数数组 edges 表示，其中 edges[i] = [ai, bi] ，表示树中节点 ai 和 bi]]></description>
-</item>
-<item>
-    <title>力扣 2673 使二叉树所有路径值相等的最小代价</title>
-    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2673-%E4%BD%BF%E4%BA%8C%E5%8F%89%E6%A0%91%E6%89%80%E6%9C%89%E8%B7%AF%E5%BE%84%E5%80%BC%E7%9B%B8%E7%AD%89%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BB%A3%E4%BB%B7/</link>
-    <pubDate>Wed, 28 Feb 2024 00:00:00 &#43;0000</pubDate>
-    <author>力扣官方题解</author>
-    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2673-%E4%BD%BF%E4%BA%8C%E5%8F%89%E6%A0%91%E6%89%80%E6%9C%89%E8%B7%AF%E5%BE%84%E5%80%BC%E7%9B%B8%E7%AD%89%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BB%A3%E4%BB%B7/</guid>
-    <description><![CDATA[使二叉树所有路径值相等的最小代价 题目 给你一个整数 n 表示一棵 满二叉树 里面节点的数目，节点编号从 1 到 n 。根节点编号为 1 ，树中每个非叶子节点 i 都有]]></description>
-</item>
-<item>
-    <title>力扣 2867 统计树中的合法路径数目</title>
-    <link>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2867-%E7%BB%9F%E8%AE%A1%E6%A0%91%E4%B8%AD%E7%9A%84%E5%90%88%E6%B3%95%E8%B7%AF%E5%BE%84%E6%95%B0%E7%9B%AE/</link>
-    <pubDate>Tue, 27 Feb 2024 00:00:00 &#43;0000</pubDate>
-    <author>力扣官方题解</author>
-    <guid>https://u4E0A.github.io/%E5%8A%9B%E6%89%A3-2867-%E7%BB%9F%E8%AE%A1%E6%A0%91%E4%B8%AD%E7%9A%84%E5%90%88%E6%B3%95%E8%B7%AF%E5%BE%84%E6%95%B0%E7%9B%AE/</guid>
-    <description><![CDATA[统计树中的合法路径数目 题目 给你一棵 n 个节点的无向树，节点编号为 1 到 n 。给你一个整数 n 和一个长度为 n - 1 的二维整数数组 edges ，其中 edges[i] = [ui, vi] 表示节点]]></description>
 </item>
 </channel>
 </rss>
